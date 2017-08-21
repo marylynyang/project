@@ -1,0 +1,109 @@
+#article{
+    width: 100%;
+}
+.article{
+    width: 1100px;
+    margin: 0 auto;
+    background: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.clear{
+    clear: both;
+}
+#typeTitle{
+    font: bold 30px 楷体;
+}
+#typeEntitle{
+    letter-spacing: 2px;
+}
+.three_points{
+    background: url("../images/banner02/pen_line.gif") no-repeat;
+    background-position-y: -165px;
+    width: 255px;
+    height: 45px;
+    margin:15px auto;
+}
+.article_content{
+    text-align: left;
+    width: 1100px;
+}
+#articleTitle{
+    float: left;
+    font: 100 25px 楷体;
+    margin-left: 150px;
+}
+.line_wrap{
+    position: relative;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.line_long{
+     background: url("../images/pen_line_long.png") no-repeat;
+     width: 780px;
+     height: 2px;
+     float: left;
+     background-size: 780px 2px;
+
+ }
+.pen_img{
+    background: url("../images/pen.png") no-repeat;
+    width: 61px;
+    height: 54px;
+    position: absolute;
+    top:-52px;
+    left:763px;
+    cursor: pointer;
+}
+#updateTime{
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+#cover{
+    margin-left: 150px;
+    /*width: 620px;*/
+}
+#author{
+    float: left;
+    margin-left: 150px;
+}
+#content{
+    width: 780px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.like_btn{
+    width: 73px;
+    height: 73px;
+    background: url("../images/article_iflike.png") no-repeat;
+    margin-left: 500px;
+    margin-top: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.like_btn:hover{
+    background: url("../images/article_iflike.png") no-repeat 0 -73px;
+}
+.like_tips{
+    position: absolute;
+    background: url("../images/article_iflike_nomberbg.png") no-repeat;
+    width: 135px;
+    height: 35px;
+    top:20px;
+    left: 80px;
+    line-height: 35px;
+    color: white;
+    /*padding-left: 15px;*/
+    text-align: center;
+    /*display: none;*/
+    opacity: 0;
+    transition: 0.8s;
+
+}
+.like_btn:hover .like_tips{
+    opacity: 1;
+
+}

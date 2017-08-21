@@ -1,0 +1,331 @@
+#wrap01{
+    width: 100%;
+    /*background: red;*/
+}
+
+.clear{
+    clear: both;
+}
+.list{
+    width: 1100px;
+    margin: 0 auto;
+    /*background: cornflowerblue;*/
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.list_title{
+    color:black;
+    padding: 50px 0 15px 0;
+}
+.three_points{
+    background: url("../images/banner02/pen_line.gif") no-repeat;
+    background-position-y: -165px;
+    width: 255px;
+    height: 45px;
+    margin: 20px auto;
+}
+.list_title p{
+    letter-spacing: 2px;
+}
+.list_content{
+    width: 1100px;
+    /*height: 500px;*/
+    float: left;
+    /*background: coral;*/
+}
+.list_contitle{
+    text-align: left;
+    width: 1100px;
+}
+.list_contitle h2{
+    float: left;
+    color:black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.line_wrap{
+    position: relative;
+    margin-bottom: 30px;
+
+}
+.line_long{
+     background: url("../images/pen_line_long.png") no-repeat;
+     width: 1049px;
+     height: 2px;
+     float: left;
+
+}
+.pen_img{
+    background: url("../images/pen.png") no-repeat;
+    width: 61px;
+    height: 54px;
+    position: absolute;
+    top:-51px;
+    right:10px;
+}
+#articleList{
+    width: 1100px;
+    /*height: 1000px;*/
+    /*background: chartreuse;*/
+    float: left;
+    padding-bottom: 100px;
+    /*position: relative;*/
+}
+.list1_wrap{
+    position: relative;
+    width: 538px;
+    height: 238px;
+    float: left;
+}
+.list_1{
+    width: 538px;
+    height: 238px;
+    background: white;
+    position: absolute;
+}
+.list2_wrap{
+    position: relative;
+    width: 538px;
+    height: 238px;
+    float: right;
+}
+
+.list_2{
+    width: 538px;
+    height: 238px;
+    background: white;
+    position: absolute;
+}
+.list3_wrap{
+    position: relative;
+    width: 538px;
+    height: 238px;
+    float: left;
+    margin-top: 25px;
+ }
+.list_3{
+    width: 538px;
+    height: 238px;
+    background: white;
+    position: absolute;
+}
+.list4_wrap{
+    position: relative;
+    width: 538px;
+    height: 238px;
+    float: right;
+    margin-top: 25px;
+}
+.list_4{
+    width: 538px;
+    height: 238px;
+    background: white;
+    position: absolute;
+}
+.list5_wrap{
+    position: relative;
+    width: 538px;
+    height: 238px;
+    float: left;
+    margin-top: 25px;
+}
+.list_5{
+    width: 538px;
+    height: 238px;
+    background: white;
+    position: absolute;
+}
+.list6_wrap{
+    position: relative;
+    width: 538px;
+    height: 238px;
+    float: right;
+    margin-top: 25px;
+}
+.list_6{
+    width: 538px;
+    height: 238px;
+    background: white;
+    position: absolute;
+}
+
+.list_leftimg1{
+    background: url("../images/list_img01.jpg") no-repeat;
+    width: 260px;
+    height: 170px;
+    float: left;
+    margin: 36px 10px 0 20px;
+    position: relative;
+}
+.list_rightcon{
+    float: left;
+    width: 242px;
+    height: 170px;
+    /*background: red;*/
+    margin-top: 36px;
+    overflow: hidden;
+}
+.list_rightcon h3{
+    float: left;
+    margin-top: 15px;
+}
+.list_rightcon .list_conp1{
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.list_conp2{
+    float: left;
+    margin-top: 10px;
+}
+.list_rightimg1{
+    background: url("../images/list_img02.jpg") no-repeat;
+    width: 260px;
+    height: 170px;
+    float: left;
+    margin: 36px 12px 25px 20px;
+    position: relative;
+}
+.list3_leftimg1{
+    background: url("../images/list_img03.jpg") no-repeat;
+    width: 260px;
+    height: 170px;
+    float: left;
+    margin: 36px 12px 25px 20px;
+    position: relative;
+}
+.list4_rightimg1{
+    background: url("../images/list_img04.jpg") no-repeat;
+    width: 260px;
+    height: 170px;
+    float: left;
+    margin: 36px 12px 25px 20px;
+    position: relative;
+}
+.list5_rightimg1{
+    background: url("../images/list_img04.jpg") no-repeat;
+    width: 260px;
+    height: 170px;
+    float: left;
+    margin: 36px 12px 25px 20px;
+    position: relative;
+}
+.list6_leftimg1{
+    background: url("../images/list_img03.jpg") no-repeat;
+    width: 260px;
+    height: 170px;
+    float: left;
+    margin: 36px 12px 25px 20px;
+    position: relative;
+}
+.ckgdwrap{
+    float: left;
+    margin-left: 500px;
+    margin-top: 40px;
+    width: 107px;
+}
+.ckgd{
+    background: url("../images/list_gomore_bg.jpg") no-repeat;
+    width: 107px;
+    height: 175px;
+    float: left;
+    cursor: pointer;
+    transition: 1s;
+}
+.ckgd:hover{
+    transform: translateY(25px);
+}
+
+.list_img_over_xiaojiantou{
+    background: url("../images/list_img_over_xiaojiantou.png") no-repeat;
+    z-index: 1;
+    width: 14px;
+    height: 9px;
+    position: absolute;
+    display: none;
+}
+/*模板css*/
+#itemHtml{
+    position: relative;
+    width: 520px;
+    height: 338px;
+    float:left;
+    margin-top: 25px;
+    display: none;
+}
+.moban{
+    width: 520px;
+    height: 338px;
+    background: #f1f2f6;
+    float:left;
+    margin-top: 25px;
+    margin-right: 22px;
+    transition: 1s;
+    border: 1px solid transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 0.4em;
+    /*position: absolute;*/
+}
+.moban_leftimg1{
+    /*background:red;*/
+    width: 220px;
+    height: 280px;
+    float: left;
+    margin: 25px 12px 25px 20px;
+    position: relative;
+    border-radius: 0.5em;
+}
+.moban_leftimg1 img{
+    position: absolute;
+    border-radius: 0.5em;
+    width: 220px;
+    height: 280px;
+}
+.content_text{
+    float: right;
+    width: 250px;
+    /*height: 170px;*/
+    /*background: red;*/
+    margin-top: 45px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.moban_conp1{
+    float: left;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.moban_conp2{
+    float: left;
+    margin-top: 10px;
+    /*background: red;*/
+    /*height: 80px;*/
+}
+.moban:hover{
+    border: 1px solid #9a9a9a;
+    transform: translateY(-10px)
+}
+/*.moban:hover .xiaojiantou1{*/
+    /*left: 50px;*/
+/*}*/
+.title_small{
+    font: 100 17px 楷体;
+}
+.moban_menban{
+    position: absolute;
+    width: 220px;
+    height: 280px;
+    background: rgba(80, 79, 93, 0.56);
+    display: none;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-size:14px;
+    border-radius: 0.5em;
+}
+.moban:hover .moban_menban{
+    display: block;
+    animation: fadeIn 0.8s;
+}

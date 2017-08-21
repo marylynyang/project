@@ -1,0 +1,113 @@
+#footer{
+    width: 100%;
+}
+
+.footer_1{
+    width: 100%;
+    background: white;
+}
+.footer_content{
+    width: 1100px;
+    margin: 0 auto;
+    /*background: cornflowerblue;*/
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.yinyuewrap{
+    width:1100px;
+    height: 20px;
+    /*background: red;*/
+    border-bottom: 1px dotted #ff7e7f;
+}
+/*.yinyue{*/
+    /*!*width: 500px;*!*/
+    /*height: 57px;*/
+    /*!*background: crimson;*!*/
+    /*float: left;*/
+    /*margin-left:265px;*/
+    /*margin-top: 80px;*/
+/*}*/
+/*.duo{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_duo.png") no-repeat;*/
+    /*float: left;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.lai{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_lai.png") no-repeat;*/
+    /*float: left;*/
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.mi{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_mi.png") no-repeat;*/
+    /*float: left;*/
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.fa{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_fa.png") no-repeat;*/
+    /*float: left;*/
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.suo{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_suo.png") no-repeat;*/
+    /*float: left;*/
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.la{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_la.png") no-repeat;*/
+    /*float: left;*/
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.xi{*/
+    /*width: 57px;*/
+    /*height: 57px;*/
+    /*background: url("../images/yinyue_xi.png") no-repeat;*/
+    /*float: left;*/
+    /*margin-left: 25px;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.duo:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/
+/*.lai:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/
+/*.mi:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/
+/*.fa:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/
+/*.suo:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/
+/*.la:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/
+/*.xi:hover{*/
+    /*background-position-y:-57px ;*/
+    /*animation: jello 1s;*/
+/*}*/

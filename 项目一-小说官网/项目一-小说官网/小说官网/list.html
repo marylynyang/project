@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全部作品</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/listData.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/list1.js"></script>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/backTop.css">
+    <script src="js/backTop.js"></script>
+</head>
+<body>
+<!--返回顶部-->
+<div id="backTop">
+    <div class="fanhui"></div>
+</div>
+<!--头部-->
+<div id="header"></div>
+<!--列表-->
+<div id="wrap01">
+    <div class="list">
+        <div class="list_title">
+            <h1>全部作品</h1>
+            <p>All Works</p>
+            <div class="three_points"></div>
+            <div class="list_content">
+                <div class="list_contitle">
+                    <h2>轻小说列表</h2>
+                    <div class="clear"></div>
+                    <div class="line_wrap">
+                        <div class="line_long">
+                            <div class="pen_img"></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div id="articleList">
+                        <div class="clear"></div>
+                    </div>
+                    <div class="ckgdwrap">
+                        <div class="ckgd"></div>
+                    </div>
+                    <!--模板-->
+                    <div id="itemHtml">
+                        <div class="moban" onclick="asd1($articleId$)">
+                            <div class="moban_leftimg1">
+                                <img src="$articleCover$" alt="">
+                                <div class="moban_menban">
+                                    <br/>
+                                    $articlehoverTile$<br/>
+                                    评分：<span style="color: yellow">$articlePoints$</span><br/>
+                                    字数：<span style="color: yellow">$articleNumber$</span><br/>
+                                    收藏：<span style="color: yellow">$articleShoucang$</span>
+                                </div>
+                            </div>
+                            <div class="content_text">
+                                <div class="title_small">$articleTitle$</div>
+                                <div class="date moban_conp1">更新：$updateTime$</div>
+                                <div class="clear"></div>
+                                <div style="margin-top: 15px">【简介】</div>
+                                <p class="moban_conp2">$describe$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--底部-->
+<div id="footer"></div>
+</body>
+</html>

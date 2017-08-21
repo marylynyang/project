@@ -1,0 +1,23 @@
+#backTop{
+    width: 100px;
+    height: 140px;
+    /*height: 150px;*/
+    /*background: red;*/
+    position: fixed;
+    z-index: 999;
+    right: 20px;
+    bottom:50px;
+    display: none;
+}
+.fanhui{
+    width: 100px;
+    height: 140px;
+    background: url("../images/backTop/backTop.png") no-repeat;
+    float: left;
+    margin-right: 0;
+    cursor: pointer;
+}
+/*.fanhui:hover{*/
+    /*background:url("../images/backTop/backTop-hover.png") no-repeat;;*/
+/*}*/
+
