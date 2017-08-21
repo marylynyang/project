@@ -1,0 +1,29 @@
+/* Empty. Add your own CSS if you like */
+.titleItm h2{
+  float: left;
+}
+a{
+  text-decoration: none;
+  color: #666;
+}
+.list_img{
+  width:100%;
+  height: 2.8rem;
+  background: #fff;
+  overflow: hidden;
+}
+
+.list_img img{
+  height: 2.8rem;
+}
+
+.more{
+  float: right;
+}
+
+.item-thumbnail-left>img:first-child{
+  max-width: 100px;
+}
+.item-thumbnail-left{
+  padding-left: 120px;
+}
