@@ -1,0 +1,158 @@
+运行目录：npm run dev
+模板文件  .vue
+template==》根目录
+script==》暴露es6
+style==》样式  作用域
+ 路由  加载其他文件 es6
+           加载模板 .vue
+           import 加载到的变量  from 加载的路径
+                               @==》上级目录
+
+           使用路由插件  Vue.use("路由插件")
+       暴露路由文件  es6
+       export dfault new router({})
+
+主文件   加载其他文件
+            import 加载到的变量  from 加载路径
+        使用  new  Vue({})
+----------------------------
+vue-cli==>构建项目模块化
+初始项目 vue init webpack 项目名称
+
+运行项目：npm run dev
+发布：做完的时候
+生成html css js文件
+npm run build==>dist 里面 html css等文件
+bist文件
+
+内容：组件 .vue文件 template ==>html
+                   script ==>js代码 vue的代码 vue组件的js代码 data methods computed...
+                   style ==>样式
+
+           路由：router
+                   加载es6
+           主文件 main.js vue实例的文件
+
+热重载：不用去刷新页面，自动更新内容
+
+
+
+先写组件  .vue==>
+        配置路由 {path:"",component:""}==>
+        router-link
+
+
+组件里面使用组件
+hello.vue里面使用demo1.vue
+步骤:
+    1.引入demo1.vue
+    2.在js组件的选项options==》components:{demo1}
+    3.在template使用
+
+-----------------------
+使用vuex
+下载:npm install vuex --save
+--save:添加到依赖里面==》package.json的依赖的字段
+
+使用vuex
+1.创建vuex||store==》作用一样
+2.在里面创建js文件 存放数据  new Vuex.Store
+3.引入vue和vuex,在vue中使用vuex==》vue.use(Vuex)
+4.编写state mutation......
+5.暴露  export default new Vuex.Store
+
+
+
+6.在main.js把加载vue实例里面,在组件中使用
+
+
+单个组件使用:
+computed:{
+text:function(){
+//this==>vue实例
+this.$store.state
+this.$store.getters
+this.$store.commit()
+}
+}
+
+------------------------------------------------
+ajax插件  axios下载
+
+npm install axios --save
+
+get方式的请求
+
+axios.get({
+    url:"请求的地址&1拼接请求的数据",
+    params:{"2拼接数据"}
+}).then(function(respons){  //成功时运行的回调
+// respons ==> 请求的结果
+}).catch(function(err){  //失败时运行 的回调
+// err ==>失败的原因
+})
+
+
+post方式的请求
+axios.post({
+   url:"地址",
+   data:{"发送的数据"}
+
+}).then(function(respons){  //成功时的回调
+
+}).catch(function(err){  //失败时的回调
+
+})
+
+
+axios({
+methods:"get|post"
+    url:"请求的地址&1拼接请求的数据",
+    params:{"2拼接数据"}
+}).then(function(respons){  //成功时运行的回调
+// respons ==> 请求的结果
+}).catch(function(err){  //失败时运行 的回调
+// err ==>失败的原因
+})
+
+-----------------------------------------
+
+弹窗
+1.父级的控制  监听自定事件
+2.子集的控制  触发自定事件
+   遮罩层
+
+------------------------------------------
+
+图表  echars
+下载 ：npm install echarts  --save
+在index.vue 引入 echarts
+import echarts from 'echarts'
+
+------------------------------------------
+根据窗口的改变而改变的弹窗（位置）
+思路：窗口改变时，重新计算窗口的位置（计算窗口的位置==》函数）
+
+1.触发的哪些事件==》编写函数（功能）
+点击 click onclick=function(){alert(55)}
+
+--------------------------------------------
+表格组件：
+表格头部：
+
+表格的内容：ajax请求过来的
+
+操作表格的按钮（操作表格的和操作分页的）
+操作表达：编辑和删除
+
+操作分页：第一页
+         上一页
+         1
+         下一页
+         最后一页
+
+思路：admin.js 定义数据：表格头部   表格内容  表格的按钮函数（功能实现）
+admin.vue组件  ==》取出来 .state.
+父==》子  传递到 表格组件里面 ==》分配 内容
+
+表头的内容

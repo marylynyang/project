@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="axios.js"></script>
+</head>
+<body>
+
+	<div>验证码: <p id="veri"></p><input type="button" id="btn" value="获取验证码"></div>
+	<form action='/VueHandler/AdminLoginAndRegHandler?action="checkVerification"' method="get">
+		<input type="text" name="action" value="checkVerification">
+		<p>验证码： <input type="text" name="veri"></p>
+		<input type="submit" value="提交">
+	</form>
+	<script>
+//		作用： 不用刷新浏览器就能与后台数据交互
+
+
+
+		document.getElementById("btn").onclick=function(){
+			getVeri()
+		};
+
+		function getVeri() {
+			axios.get("/")
+//			var xmlhttp= new XMLHttpRequest();
+//			xmlhttp.open("GET","/VueHandler/AdminLoginAndRegHandler?action=verification",true);
+//			xmlhttp.send();
+//			xmlhttp.onreadystatechange=function()
+//			{
+//				if (xmlhttp.readyState==4 && xmlhttp.status==200)
+//				{
+//					document.getElementById("veri").innerHTML=xmlhttp.responseText;
+//				}
+//			}
+		}
+		getVeri()
+	</script>
+
+</body>
+</html>
