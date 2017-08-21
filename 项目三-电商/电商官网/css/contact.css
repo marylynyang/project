@@ -1,0 +1,150 @@
+
+.clear{
+    clear: both;
+}
+.w_contact_banner {
+    width: 100%;
+    height: 550px;
+    background: url("../images/contact/contact_banner.png") no-repeat center 100%;
+}
+
+.w_contact_main{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+    /*padding-top: 20px;*/
+    /*padding-left: 100px;*/
+}
+.w_server{
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+    /*background-color: aqua;*/
+}
+.w_online{
+    width: 270px;
+    height: 60px;
+    background: black;
+    color: white;
+    line-height: 65px;
+    float: left;
+}
+.w_online span{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.w_zaixiankefu{
+    float: left;
+    margin-top: 10px;
+}
+.w_alwwIcon{
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 20px;
+}
+.w_zaixianBlock{
+    float: left;
+    display: block;
+    margin-left: 7px;
+    font-size: 17px;
+}
+.w_zaixianBlock1{
+    float: left;
+    display: block;
+    margin-top: 3px;
+    margin-left: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.w_zaixianBlock2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 17px;
+}
+.w_greyLine{
+    width: 270px;
+    border: 1px dotted lightgray;
+    float: left;
+    margin-top: 13px;
+}
+.w_workTime{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.w_timeIcon{
+    float: left;
+    width: 28px;
+    vertical-align: middle;
+}
+
+.w_address{
+    float: left;
+    /*margin-left: 60px;*/
+    width:860px;
+}
+.w_add_title{
+     line-height: 60px;
+     font-size: 16px;
+     width: 800px;
+    height: 60px;
+     text-align: left;
+     border-bottom: 2px solid lightgrey;
+ }
+.w_add_title>div{
+    width: 82px;
+    border-bottom: 2px solid black;
+}
+.w_add_title1>div{
+    width: 120px;
+    border-bottom: 2px solid black;
+}
+.w_add_title1{
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    width: 800px;
+    text-align: left;
+    border-bottom: 2px solid blanchedalmond;
+    margin-bottom: 20px;
+}
+
+.w_map{
+    margin-top: 10px;
+    width: 840px;
+    height: 350px;
+}
+.w_txt{
+    width: 350px;
+    height: 30px;
+}
+
+.w_address{
+    line-height: 50px;
+}
+.w_address>span{
+    margin-left: 20px;
+}
+.w_content{
+    float: left;
+    margin-left: 19px;
+    line-height: 180px;
+    margin-top: 10px;
+}
+.w_txt2{
+    margin-top: 10px;
+}
+.w_submit{
+    background-color: darkslategray;
+    width: 250px;
+    height: 40px;
+    color: white;
+    margin-left: 65px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+

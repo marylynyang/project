@@ -1,0 +1,172 @@
+*{
+	padding: 0;
+	margin: 0;
+	/*overflow-x: hidden;*/
+}
+.clear{
+	clear:both
+}
+.tide-wrap{
+	width: 100%;
+
+}
+.tide-banner{
+	width: 100%;
+	height: 550px;
+	background: url(../images/trend/tide-banner.png) no-repeat center 100%;
+	
+}
+/*潮流*/
+.tide_wrap{
+	width:1150px;
+	margin: 0 auto;
+	/*background: cornflowerblue;*/
+	padding: 150px 0 0 0;
+}
+.tide-coat{
+	float: left;
+	position: relative;
+}
+
+
+.tide-pic{
+	margin-left: 70px;
+	float: left;
+}
+.tide-pic1{
+	float:left;
+    margin-left: 90px;
+	margin-top: 180px;
+}
+.tide-kuang{
+	float: left;
+	width: 280px;
+	height: 160px;
+	border: 3px solid #d9dedf;
+	background-color: rgba(255,255,255,0.4);
+	position: absolute;
+	text-align: center;
+	left: 458px;
+	top:-35px
+}
+.x_tide-pic{
+	float: left;
+	margin-left: 114px;
+	margin-top: 205px;
+	font-size: 37px;
+	font-weight: bold;
+
+}
+.tide_font1{
+	font-size: 37px;
+	margin-top: 30px;
+	font-weight: bold;
+ }
+.tide_font2{
+	width: 80px;
+	height: 5px;
+	background: black;
+	margin-left: 35%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.tide_font3{
+	font-size: 35px;
+	font-weight: bold;
+}
+.tide-pic3{
+	float: left;
+	margin-left: 90px;
+	margin-top: 205px;
+	margin-bottom: 205px;
+}
+.x_mengban{
+	width: 210px;
+	height: 420px;
+	background:#d8d8d6;
+	position: absolute;
+	right: -60px;
+	top:160px;
+	z-index: -1;
+
+}
+/*单品*/
+.single-wrap{
+	width: 1150px;
+	margin: 0 auto;
+	/*background: lightgray;*/
+	padding: 100px 0;
+}
+.single-banner{
+	width: 100%;
+	height: 170px;
+	background-color: black;
+}
+.single-zi{
+	text-align: center;
+	color: white;
+	line-height: 170px;
+	margin: 0 auto;
+	font-size: 30px;
+	letter-spacing: 0.15em;
+}
+.x-single{
+	width: 1150px;
+	/*border: 2px solid sandybrown;*/
+	position: relative;
+	height: 500px;
+	/*background: lightgray;*/
+	/*position: relative;*/
+}
+
+.x-sg{
+	position: relative;
+	float: left;
+	
+}
+.single-kuang{
+	 width: 283px;
+    height: 137px;
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 345px;
+    left: 35px;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+    z-index: 1;
+    border: 1px solid rgba(89, 89, 89, 0.3);
+	
+}
+.single-pic{
+	 width: 350px;
+    height: 450px;
+    float: left;
+    cursor: pointer;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.single-pic1{
+	width: 350px;
+	/*height: 450px;*/
+}
+.single-btn{
+	width:125px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 0.4em;
+    cursor: pointer;
+    outline: none;
+    margin-top: 8px;
+}
+.x_singleConect{
+    font-size: 14px;
+    margin-top: 15px;
+}
+.single-pic:hover>.single-pic1{
+	transform: scale(1.1);
+	transition: 1s;
+}

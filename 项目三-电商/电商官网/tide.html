@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tide</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/tide.js"></script>
+    <script src="js/sidebar.js"></script>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tide.css"/>
+    <link rel="stylesheet" href="css/sidebar.css">
+
+</head>
+<body>
+<!--侧边栏-->
+<div id="y_bigsideWrap">
+    <div id="y_sidebarWrap">
+        <div class="y_sidebar">
+            <div class="y_sidebar_top">
+                <div class="y_icon">
+                    <img src="images/sidebar/timg.jpg" alt="" class="y_sidebar_icon">
+                </div>
+                <div class="y_sidebar_user">
+                    <img src="images/sidebar/sidebar_user.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的资料
+                    </div>
+                </div>
+                <div class="y_sidebar_shoucang">
+                    <img src="images/sidebar/sidebar_shoucang.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的收藏
+                    </div>
+                </div>
+                <div class="y_sidebar_shopping">
+                    <div class="y_sidebar_xian"></div>
+                    <img src="images/sidebar/sidebar_shopping.png" alt="" class="y_sidebar_icon">
+                    <div class="y_sidebar_gouwuche">
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <p class="y_border">0</p>
+                    </div>
+                    <div class="y_sidebar_xian1"></div>
+                    <div class="y_sidebar_loginWrap">
+                        <div class="y_sidebar_login">
+                            <p class="y_login_font">账号密码登录</p>
+                            <div class="clear"></div>
+                            <div class="y_login_line01"></div>
+                            <div class="y_login_line02"></div>
+                            <div class="clear"></div>
+                            <input type="text" class="y_login_user" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号">
+                            <div class="clear"></div>
+                            <input type="password" class="y_login_password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码">
+                            <div class="clear"></div>
+                            <input type="submit" value="登录" class="y_login_btn">
+                            <div class="clear"></div>
+                            <p class="y_reg_font" onclick="JavaScript:window.open('reg.html','_blank')">免费注册></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="y_sidebar_btm">
+                <div class="y_sidebar_write">
+                    <img src="images/sidebar/sidebar_write.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        留言
+                    </div>
+                </div>
+                <div class="y_sidebar_bankuai">
+                    <img src="images/sidebar/sidebar_bankuai.png" alt="" class="y_sidebar_icon">
+                    <div class="y_erweima"></div>
+                </div>
+                <div class="y_backTop">
+                    <img src="images/sidebar/sidebar_backTop.png" alt="" class="y_sidebar_icon1">
+                    <span>TOP</span>
+                    <div class="y_mydata">
+                        回到顶部
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="y_shopWrap">
+        <div class="y_shoppingTitle">
+            <span class="y_jiantou">>></span><span class="y_myshopping">我的购物车</span>
+        </div>
+        <div class="clear"></div>
+        <div class="y_shoppingFooter">
+            <p><span class="y_shopFont1">共0件商品</span><span class="y_shopFont2">共计:<span style="color: red">￥0.00</span></span></p>
+            <div class="clear"></div>
+            <button class="y_shopBtn">去购物车结算</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--引入头部-->
+<div id="header"></div>
+<!--潮流搭配-->
+<div class="tide-wrap">
+    <!--背景-->
+    <div class="tide-banner"></div>
+    <!--潮流搭配-->
+    <div class="single-banner">
+        <div class="single-zi">NECESSAR•潮流搭配</div>
+    </div>
+    <div class="clear"></div>
+    <div class="tide_wrap">
+        <!--第一个-->
+        <div class="tide-coat">
+            <div class="tide-pic">
+                    <img src="images/trend/tide-img1.png" alt=""/>
+            </div>
+            <div class="tide-pic1">
+                    <img src="images/trend/tide-img2.png" alt=""/>
+            </div>
+            <div class="tide-kuang">
+                <p class="tide_font1">CHIFFON DRESS</p>
+                <p class="tide_font2"></p>
+                <p class="tide_font3">
+                   <span style="font-size: 18px;margin-right: 3px">¥</span>79.00
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--第二个-->
+        <div class="tide-coat">
+            <div class="x_tide-pic">
+                    <img src="images/trend/tide-img3.png">
+                    <p>SHIRT DRESS</p>
+                    <p style="font-size: 19px;font-weight: 100">宽松显瘦休闲竖条纹长袖衬衫裙</p>
+                    <p><span style="font-size: 18px;margin-right: 3px">¥</span>80.00</p>
+            </div>
+            <div class="tide-pic3">
+                <img src="images/trend/tide-img4.png">
+            </div>
+            <div class="x_mengban"></div>
+        </div>
+        <div class="clear"></div>
+        <!--第三个-->
+        <div class="tide-coat">
+            <div class="tide-pic">
+                <div>
+                    <img src="images/trend/tide-img5.png" alt=""/>
+                </div>
+            </div>
+            <div class="tide-pic1">
+                <div class="tide-pic2">
+                    <img src="images/trend/tide-img6.png" alt=""/>
+                </div>
+            </div>
+            <div class="tide-kuang">
+                <p class="tide_font1">COORDINATES</p>
+                <p class="tide_font2"></p>
+                <p class="tide_font3">
+                    <span style="font-size: 18px;margin-right: 3px">¥</span>69.00
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--第四个-->
+        <div class="tide-coat">
+            <div class="x_tide-pic">
+                    <img src="images/trend/tide-img7.png">
+                    <p>COORDINATES</p>
+                    <p style="font-size: 19px;font-weight: 100">短袖雪纺衬衫+阔腿裤时尚套装女</p>
+                    <p><span style="font-size: 18px;margin-right: 3px">¥</span>79.00</p>
+            </div>
+            <div class="tide-pic3">
+                <img src="images/trend/tide-img8.png">
+            </div>
+            <div class="x_mengban"></div>
+        </div>
+        <div class="clear"></div>
+        <!--第五个-->
+        <div class="tide-coat">
+            <div class="tide-pic">
+                <div>
+                    <img src="images/trend/tide-img9.png" alt=""/>
+                </div>
+            </div>
+            <div class="tide-pic1">
+                <div class="tide-pic2">
+                    <img src="images/trend/tide-img10.png" alt=""/>
+                </div>
+            </div>
+            <div class="tide-kuang">
+                <p class="tide_font1">WIDE PANTS</p>
+                <p class="tide_font2"></p>
+                <p class="tide_font3">
+                    <span style="font-size: 18px;margin-right: 3px">¥</span>50.00
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--第六个-->
+        <div class="tide-coat">
+            <div class="x_tide-pic">
+                    <img src="images/trend/tide-img11.png">
+                    <p>JUMPSUITS</p>
+                    <p style="font-size: 19px;font-weight: 100">一字领露肩连体裤阔腿裤</p>
+                    <p><span style="font-size: 18px;margin-right: 3px">¥</span>69.00</p>
+            </div>
+            <div class="tide-pic3">
+                <img src="images/trend/tide-img12.png">
+            </div>
+            <div class="x_mengban"></div>
+        </div>
+        <div class="clear"></div>
+        <!--第七个-->
+        <div class="tide-coat">
+            <div class="tide-pic">
+                <div>
+                    <img src="images/trend/tide-img13.png" alt=""/>
+                </div>
+            </div>
+            <div class="tide-pic1">
+                <div class="tide-pic2">
+                    <img src="images/trend/tide-img14.png" alt=""/>
+                </div>
+            </div>
+            <div class="tide-kuang">
+                <p class="tide_font1">JUMPSUITS</p>
+                <p class="tide_font2"></p>
+                <p class="tide_font3">
+                    <span style="font-size: 18px;margin-right: 3px">¥</span>66.00
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--第八个-->
+        <div class="tide-coat">
+            <div class="x_tide-pic">
+                    <img src="images/trend/tide-img15.png">
+                    <p>Jumpsuits</p>
+                    <p style="font-size: 19px;font-weight: 100">一字领露肩连体裤阔腿裤</p>
+                    <p><span style="font-size: 18px;margin-right: 3px">¥</span>69.00</p>
+            </div>
+            <div class="tide-pic3">
+                <img src="images/trend/tide-img16.png">
+            </div>
+            <div class="x_mengban"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <!--必备单品-->
+    <div class="single-banner">
+        <div class="single-zi">NECESSAR•必备单品</div>
+    </div>
+    <div class="single-wrap">
+        <br/>
+        <!--第一部分-->
+        <div class="x-single">
+            <!--第一个-->
+            <div class="x-sg" style="margin-right: 48px;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img1.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">蕾丝连衣裙女勾花镂空</p>
+                    <p><span style="font-size: 20px;">¥<b>79</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+            <!--第二个-->
+            <div class="x-sg">
+                <div class="single-pic">
+                    <img src="images/trend/single-img2.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">字母印花百搭背带裙女</p>
+                    <p><span style="font-size: 20px;">¥<b>58</b></span>.89</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+            <!--第三个-->
+            <div class="x-sg" style="float: right;margin-right: 0;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img3.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">高腰牛仔裙半身裙女</p>
+                    <p><span style="font-size: 20px;">¥<b>58</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+        </div>
+        <!--第二部分-->
+        <div class="x-single">
+            <!--第一个-->
+            <div class="x-sg" style="margin-right: 48px;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img4.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">宽松高腰破洞字母短袖</p>
+                    <p><span style="font-size: 20px;">¥<b>39</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+            <!--第二个-->
+            <div class="x-sg" style="margin-right: 35px;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img5.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">宽松露背雪纺衬衫女</p>
+                    <p><span style="font-size: 20px;">¥<b>53</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+            <!--第三个-->
+            <div class="x-sg" style="float: right;margin-right: 0;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img6.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">阔腿显瘦a字热裤宽松</p>
+                    <p><span style="font-size: 20px;">¥<b>38</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+            </div>
+        </div>
+        <!--第三部分-->
+        <div class="x-single">
+            <!--第一个-->
+            <div class="x-sg" style="margin-right: 48px;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img7.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">男短袖日系卡通印花</p>
+                    <p><span style="font-size: 20px;">¥<b>50</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+            <!--第二个-->
+            <div class="x-sg">
+                <div class="single-pic">
+                    <img src="images/trend/single-img8.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">日系短裤男运动五分裤</p>
+                    <p><span style="font-size: 20px;">¥<b>57</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+
+            </div>
+            <!--第三个-->
+            <div class="x-sg" style="float: right;margin-right: 0;">
+                <div class="single-pic">
+                    <img src="images/trend/single-img9.png" class="single-pic1">
+                </div>
+                <div class="single-kuang">
+                    <p class="x_singleConect">日系宽松七分袖衬衫</p>
+                    <p><span style="font-size: 20px;">¥<b>98</b></span>.00</p>
+
+                    <button class="single-btn">购买</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--引入底部-->
+<div id="footer"></div>
+</body>
+</html>

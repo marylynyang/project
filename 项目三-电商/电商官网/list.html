@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/article.js"></script>
+    <script src="js/articleData.js"></script>
+    <script src="js/sidebar.js"></script>
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+</head>
+<body>
+<!--侧边栏-->
+<div id="y_bigsideWrap">
+    <div id="y_sidebarWrap">
+        <div class="y_sidebar">
+            <div class="y_sidebar_top">
+                <div class="y_icon">
+                    <img src="images/sidebar/timg.jpg" alt="" class="y_sidebar_icon">
+                </div>
+                <div class="y_sidebar_user">
+                    <img src="images/sidebar/sidebar_user.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的资料
+                    </div>
+                </div>
+                <div class="y_sidebar_shoucang">
+                    <img src="images/sidebar/sidebar_shoucang.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的收藏
+                    </div>
+                </div>
+                <div class="y_sidebar_shopping">
+                    <div class="y_sidebar_xian"></div>
+                    <img src="images/sidebar/sidebar_shopping.png" alt="" class="y_sidebar_icon">
+                    <div class="y_sidebar_gouwuche">
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <p class="y_border">0</p>
+                    </div>
+                    <div class="y_sidebar_xian1"></div>
+                    <div class="y_sidebar_loginWrap">
+                        <div class="y_sidebar_login">
+                            <p class="y_login_font">账号密码登录</p>
+                            <div class="clear"></div>
+                            <div class="y_login_line01"></div>
+                            <div class="y_login_line02"></div>
+                            <div class="clear"></div>
+                            <input type="text" class="y_login_user" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号">
+                            <div class="clear"></div>
+                            <input type="password" class="y_login_password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码">
+                            <div class="clear"></div>
+                            <input type="submit" value="登录" class="y_login_btn">
+                            <div class="clear"></div>
+                            <p class="y_reg_font" onclick="JavaScript:window.open('reg.html','_blank')">免费注册></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="y_sidebar_btm">
+                <div class="y_sidebar_write">
+                    <img src="images/sidebar/sidebar_write.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        留言
+                    </div>
+                </div>
+                <div class="y_sidebar_bankuai">
+                    <img src="images/sidebar/sidebar_bankuai.png" alt="" class="y_sidebar_icon">
+                    <div class="y_erweima"></div>
+                </div>
+                <div class="y_backTop">
+                    <img src="images/sidebar/sidebar_backTop.png" alt="" class="y_sidebar_icon1">
+                    <span>TOP</span>
+                    <div class="y_mydata">
+                        回到顶部
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="y_shopWrap">
+        <div class="y_shoppingTitle">
+            <span class="y_jiantou">>></span><span class="y_myshopping">我的购物车</span>
+        </div>
+        <div class="clear"></div>
+        <div class="y_shoppingFooter">
+            <p><span class="y_shopFont1">共0件商品</span><span class="y_shopFont2">共计:<span style="color: red">￥0.00</span></span></p>
+            <div class="clear"></div>
+            <button class="y_shopBtn">去购物车结算</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="z-article_wrap">
+    <div class="z-article">
+        <!--搜索框-->
+        <div class="z-article_header">
+            <div class="z-article_headerWrap">
+                <div class="z-article_sou">宝贝</div>
+                <div class="z-article_sou2">
+                    <input type="text" class="z-text">
+                    <button class="z-btn"></button>
+                </div>
+                <div class="z-list">
+                    <ul>
+                        <li>连衣裙</li>
+                        <li>运动鞋</li>
+                        <li>雪纺衫</li>
+                        <li>衬衫</li>
+                        <li>薄外套</li>
+                        <li>T恤</li>
+                        <li>套装</li>
+                        <li>牛仔裤</li>
+                        <li>小白鞋</li>
+                        <li>风衣</li>
+                        <li>绑带凉鞋</li>
+                        <li>粗跟单鞋</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="z-ma"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!--导航栏-->
+    <div class="z_navWrap">
+        <div class="z-list_nav">
+            <ul>
+                <li  onclick="JavaScript:window.open('index.html#0','_self')">首页</li>
+                <li id="listTitleOne"></li>
+                <li id="listTitleTwo"></li>
+                <li id="listTitleThree"></li>
+                <li id="listTitleFour"></li>
+                <li id="listTitleFive"></li>
+                <li id="listTitleSix"></li>
+                <li id="listTitleSeven"></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+        <div class="z-line"></div>
+    </div>
+
+        <div id="y_articleList">
+            <div class="clear"></div>
+        </div>
+
+
+
+    <!--模板-->
+    <div class="z-mobanWrap">
+        <div class="z-moban">
+            <div class="z-moban_list">
+                <div class="z-pic">
+                    <img src="$coverBanner$" alt="图片无法加载">
+                    <div class="z-mengban">
+                        <p class="z-go">
+                            <span>$shopNumber$</span>
+                            <img src="images/list/xiaojiantou.png" style="margin-left: 5px">
+                        </p>
+                    </div>
+                </div>
+                <div class="z-img">
+                    <div class="z-img1">
+                        <img src="$coverImg01$" alt="">
+                        <p>$Price01$</p>
+                    </div>
+                    <div class="z-img1">
+                        <img src="$coverImg02$" alt="">
+                        <p>$Price02$</p>
+                    </div>
+                    <div class="z-img1">
+                        <img src="$coverImg03$" alt="">
+                        <p>$Price03$</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--底部-->
+<div id="foot"></div>
+</body>
+</html>

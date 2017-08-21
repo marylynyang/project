@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/sidebar.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+<!--侧边栏-->
+<div id="y_bigsideWrap">
+    <div id="y_sidebarWrap">
+        <div class="y_sidebar">
+            <div class="y_sidebar_top">
+                <div class="y_icon">
+                    <img src="images/sidebar/timg.jpg" alt="" class="y_sidebar_icon">
+                </div>
+                <div class="y_sidebar_user">
+                    <img src="images/sidebar/sidebar_user.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的资料
+                    </div>
+                </div>
+                <div class="y_sidebar_shoucang">
+                    <img src="images/sidebar/sidebar_shoucang.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的收藏
+                    </div>
+                </div>
+                <div class="y_sidebar_shopping">
+                    <div class="y_sidebar_xian"></div>
+                    <img src="images/sidebar/sidebar_shopping.png" alt="" class="y_sidebar_icon">
+                    <div class="y_sidebar_gouwuche">
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <p class="y_border">0</p>
+                    </div>
+                    <div class="y_sidebar_xian1"></div>
+                    <div class="y_sidebar_loginWrap">
+                        <div class="y_sidebar_login">
+                            <p class="y_login_font">账号密码登录</p>
+                            <div class="clear"></div>
+                            <div class="y_login_line01"></div>
+                            <div class="y_login_line02"></div>
+                            <div class="clear"></div>
+                            <input type="text" class="y_login_user" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号">
+                            <div class="clear"></div>
+                            <input type="password" class="y_login_password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码">
+                            <div class="clear"></div>
+                            <input type="submit" value="登录" class="y_login_btn">
+                            <div class="clear"></div>
+                            <p class="y_reg_font" onclick="JavaScript:window.open('reg.html','_blank')">免费注册></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="y_sidebar_btm">
+                <div class="y_sidebar_write">
+                    <img src="images/sidebar/sidebar_write.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        留言
+                    </div>
+                </div>
+                <div class="y_sidebar_bankuai">
+                    <img src="images/sidebar/sidebar_bankuai.png" alt="" class="y_sidebar_icon">
+                    <div class="y_erweima"></div>
+                </div>
+                <div class="y_backTop">
+                    <img src="images/sidebar/sidebar_backTop.png" alt="" class="y_sidebar_icon1">
+                    <span>TOP</span>
+                    <div class="y_mydata">
+                        回到顶部
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="y_shopWrap">
+        <div class="y_shoppingTitle">
+            <span class="y_jiantou">>></span><span class="y_myshopping">我的购物车</span>
+        </div>
+        <div class="clear"></div>
+        <div class="y_shoppingFooter">
+            <p><span class="y_shopFont1">共0件商品</span><span class="y_shopFont2">共计:<span style="color: red">￥0.00</span></span></p>
+            <div class="clear"></div>
+            <button class="y_shopBtn">去购物车结算</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--头部-->
+<div id="indexheader"></div>
+<!--第一部分 新品上市-->
+<div class="x_contentWrap">
+    <div class="x-wrap">
+        <div class="x-banner">
+            <div class="x-zi">新品上市</div>
+        </div>
+        <br/><br/>
+        <!--第一部分-->
+        <div class="x-xinpin">
+            <!--第一个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img1.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">韩版V领拼接五分袖上衣</p>
+                    <p>¥<span style="font-size: 20px;"><b>40</b></span>.00<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥57.15
+                    </del></span></p>
+
+                    <button class="x-btn" onclick="javascript:window.open('shopList.html?type=shopDetails01')">购买</button>
+                </div>
+            </div>
+            <!--第二个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img2.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">水果刺绣翻领短袖T恤女</p>
+                    <p>¥<span style="font-size: 20px;"><b>39</b></span>.90<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥57.00
+                    </del></span></p>
+
+                    <button class="x-btn" onclick="javascript:window.open('shopList.html?type=shopDetails01')">购买</button>
+                </div>
+            </div>
+            <!--第三个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img3.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">学院风t恤裙宽松显瘦</p>
+                    <p>¥<span style="font-size: 20px;"><b>69</b></span>.30<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥99.00
+                    </del></span></p>
+
+                    <button class="x-btn" onclick="javascript:window.open('shopList.html?type=shopDetails01')">购买</button>
+                </div>
+            </div>
+            <!--第四个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img4.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">大拉链字母防晒衣外套女</p>
+                    <p>¥<span style="font-size: 20px;"><b>58</b></span>.40<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥84.00
+                    </del></span></p>
+
+                    <button class="x-btn">购买</button>
+                </div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+        <!--第二部分-->
+        <div class="x-xinpin1">
+            <!--第一个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img5.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">夏装短袖T恤男潮欧美</p>
+                    <p>¥<span style="font-size: 20px;"><b>45</b></span>.40<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥71.00
+                    </del></span></p>
+
+                    <button class="x-btn">购买</button>
+                </div>
+            </div>
+            <!--第二个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img6.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">宽松百搭休闲短袖短裤套装</p>
+                    <p>¥<span style="font-size: 20px;"><b>88</b></span>.40<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥108.00
+                    </del></span></p>
+
+                    <button class="x-btn">购买</button>
+                </div>
+            </div>
+            <!--第三个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img7.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect">男士纯黑修身破洞九分裤</p>
+                    <p>¥<span style="font-size: 20px;"><b>59</b></span>.40<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥90.00
+                    </del></span></p>
+
+                    <button class="x-btn">购买</button>
+                </div>
+            </div>
+            <!--第四个-->
+            <div class="x-xp">
+                <div class="xinpin-pic" onclick="javascript:window.open('shopList.html?type=shopDetails01')">
+                    <img src="images/index/xinpin-img8.png" class="x-pic1">
+                    <div class="x-men">
+                        <img src="images/index/imageEffetc_magnifier.png" class="x-pic2">
+                    </div>
+
+                </div>
+                <div class="xinpin-kuang">
+                    <p class="x_xinpinConect"> 三条杠港风男士防晒服</p>
+                    <p>¥<span style="font-size: 20px;"><b>69</b></span>.30<span style="color: gray;font-size: 13px;"><del
+                            class="x_xinpinDel">
+                        ¥90.00
+                    </del></span></p>
+                    <button class="x-btn">购买</button>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--第二部分 王牌特卖-->
+<div class="w_wrapConent">
+    <div class="w_wrap_brandSale">
+        <div class="w_brand_title">
+            <div class="w_brand_btn">王牌特卖</div>
+        </div>
+        <br/><br/>
+
+        <div class="w_brand_show">
+            <div class="w_show_left">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_1.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>夏拉贝尔女装</h5>
+                <h4>低至<span style="color: red">4折</span></h4>
+            </div>
+            <div class="w_show_right">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_2.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>其格格夏季潮品爆款</h5>
+                <h4>低至<span style="color: red">2折</span></h4>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+        <div class="w_brand_show">
+            <div class="w_show_left">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_5.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>粉红玛丽2017夏季高档女装</h5>
+                <h4>低至<span style="color: red">3折</span></h4>
+            </div>
+            <div class="w_show_right">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_4.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>2017夏装佳然△MI系列</h5>
+                <h4>低至<span style="color: red">5折</span></h4>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div class="w_brand_show">
+            <div class="w_show_left">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_7.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>唐狮 TAN LIN女装</h5>
+                <h4>低至<span style="color: red">4折</span></h4>
+            </div>
+            <div class="w_show_right">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_8.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>牧衣原创品牌女装</h5>
+                <h4>低至<span style="color: red">3折</span></h4>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+
+
+        <div class="w_brand_show">
+            <div class="w_show_left">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_6.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>花溪·羽系列专柜品牌</h5>
+                <h4>低至<span style="color: red">4折</span></h4>
+            </div>
+            <div class="w_show_right">
+                <div class="w_brand_pic">
+                    <img src="images/index/brand_3.png" alt="" class="w_brand_img">
+                    <span class="w_count1"></span><br/>
+                    <div class="w_shadow"></div>
+                </div>
+                <h5>KK酷帅潮品男装</h5>
+                <h4>低至<span style="color: red">4折</span></h4>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--第三部分 女装男装-->
+<div class="z-clothing">
+    <div class="z-content">
+        <div class="z-fgx">
+            <img src="images/index/fgx.jpg" alt="">
+        </div>
+        <!--女装-->
+        <div class="z-ladies">
+            <div class="z-jiantou"></div>
+            <div class="z-ladies_1F">
+                <ul>
+                    <li>热门</li>
+                    <li>裙子</li>
+                    <li>牛仔裤</li>
+                    <li>衬衫</li>
+                    <li>T恤</li>
+                    <li>更多>></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <!--女装图片-->
+            <div class="z-ladies_content">
+                <div class="z_big">
+                    <div class="z-ladies_fl"></div>
+                    <div class="z-ladies_ban">
+                        <div class="z-ladies_ban2">
+                            <div class="z-ladies_ban3">
+                                <p>NaiXin</p>
+                            </div>
+                            <div class="z-lineWrap">
+                                <div class="z-line"></div>
+                                <span class="z_dian1">·</span>
+                                <p style="float: left;font-size: 14px;margin-left: 3px;margin-top: 2px">打底上衣提花短裙</p>
+                                <span class="z_dian2">·</span>
+                                <div class="z-line2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="z_big1">
+                    <div class="z-ladies_top1"></div>
+                </div>
+                <div class="z_big2">
+                    <div class="z-ladies_top2"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        韩版宽松中长款套头卫衣连衣裙<br/>
+                        价格：<span class="z_color">￥135</span>
+                    </div>
+                    <div class="z-ladies_btm1"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        连衣裙女2017夏新款<br/>
+                        价格：<span class="z_color">￥199</span>
+                    </div>
+                    <div class="z-ladies_btm2"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        2017春季新款韩版显瘦休闲套装<br/>
+                        价格：<span class="z_color">￥78</span>
+                    </div>
+                    <div class="z-ladies_btm3"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        破洞牛仔裤女夏宽松哈伦裤<br/>
+                        价格：<span class="z_color">￥108</span>
+                    </div>
+                    <div class="z-ladies_btm4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--男装-->
+        <div class="z-gentle">
+            <div class="z-jiantou"></div>
+            <div class="z-gentle_2F">
+                <ul>
+                    <li>热门</li>
+                    <li>西装</li>
+                    <li>牛仔裤</li>
+                    <li>衬衫</li>
+                    <li>T恤</li>
+                    <li>更多>></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <!--男装图片-->
+            <div class="z-gentle_content">
+                <div class="z_big">
+                    <div class="z-gentle_fl"></div>
+                    <div class="z-ladies_ban">
+                        <div class="z-ladies_ban2">
+                            <div class="z-ladies_ban3">
+                                <p>冰容</p>
+                            </div>
+                            <div class="z-lineWrap">
+                                <div class="z-line"></div>
+                                <span class="z_dian1">·</span>
+                                <p style="float: left;font-size: 14px;margin-left: 3px;margin-top: 2px">男士休闲时尚长裤</p>
+                                <span class="z_dian2">·</span>
+                                <div class="z-line2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="z_big1">
+                    <div class="z-gentle_top1"></div>
+                </div>
+                <div class="z_big2">
+                    <div class="z-gentle_top2"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        夏季男士休闲修身小脚裤<br/>
+                        价格：<span class="z_color">￥138</span>
+                    </div>
+                    <div class="z-gentle_btm1"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        潮男短袖t恤男韩版棉麻七分袖<br/>
+                        价格：<span class="z_color">￥188</span>
+                    </div>
+                    <div class="z-gentle_btm2"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        夏季纯棉花短袖t恤<br/>
+                        价格：<span class="z_color">￥99</span>
+                    </div>
+                    <div class="z-gentle_btm3"></div>
+                </div>
+                <div class="z_big3">
+                    <div class="z-mask">
+                        纯棉夏季百搭短袖t恤<br/>
+                        价格：<span class="z_color">￥58</span>
+                    </div>
+                    <div class="z-gentle_btm4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<!--底部-->
+<div id="foot"></div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+.clear{
+    clear: both;
+}
+#y_footerWrap{
+    width: 100%;
+    background: black;
+    position: relative;
+    z-index: 10;
+}
+#y_footer{
+    width:1150px;
+    margin: 0 auto;
+    /*background: cornflowerblue;*/
+    padding: 30px 40px 20px 30px;
+}
+.y_Service,.y_Payment,.y_Merchant,.y_guarantee{
+
+    color: #c1c1c1;
+    /*background: red;*/
+
+}
+.y_Service{
+    float: left;
+    width: 130px;
+    margin-left: 50px;
+    margin-right: 190px;
+}
+.y_Service p{
+    float: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.y_Service p:hover{
+    color: white;
+}
+.y_Payment{
+    float: left;
+    width: 130px;
+    margin-right: 190px;
+}
+.y_Payment p{
+    float: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.y_Payment p:hover{
+    color: white;
+}
+.y_Merchant{
+    float: left;
+    width: 130px;
+    margin-right: 190px;
+}
+.y_Merchant p{
+    float: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.y_Merchant p:hover{
+    color: white;
+}
+.y_guarantee{
+    float: right;
+    width: 130px;
+}
+.y_guarantee p{
+    float: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.y_guarantee p:hover{
+    color: white;
+}
+.y_service_list{
+    line-height: 30px;
+
+}
+.y_service_list dt{
+    cursor: pointer;
+}
+.y_service_list dt:hover{
+    color: white;
+}
+.y_footer_copy{
+    color: #c1c1c1;
+    float: left;
+    margin-left:38%;
+    font-size: 13px;
+    margin-top: 30px;
+}

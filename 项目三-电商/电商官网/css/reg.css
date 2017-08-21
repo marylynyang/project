@@ -1,0 +1,252 @@
+body{
+    overflow-x: hidden;
+}
+
+.clear{
+    clear:both
+}
+
+#y_regWrap{
+    width: 100%;
+}
+.y_regBanner{
+    width: 1340px;
+    height: 550px;
+    background: url("../images/reg/reg_banner.png") no-repeat;
+    margin: 0 auto;
+}
+.y_regConnect{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.y_connectLeft{
+    width: 270px;
+    height: 470px;
+    /*background: cornflowerblue;*/
+    float: left;
+}
+.y_connectRight{
+    width:860px;
+    height: 470px;
+    float: right;
+}
+.y_leftTitle{
+    width: 270px;
+    height: 60px;
+    background: black;
+    color: white;
+    line-height: 65px;
+    float: left;
+}
+.y_leftTitle p{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.y_zaixiankefu{
+    float: left;
+    margin-top: 10px;
+}
+.y_alwwIcon{
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 20px;
+}
+.y_zaixianBlock{
+    float: left;
+    display: block;
+    margin-left: 7px;
+    font-size: 17px;
+}
+.y_zaixianBlock1{
+    float: left;
+    display: block;
+    margin-top: 3px;
+    margin-left: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.y_zaixianBlock2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 17px;
+}
+.y_greyLine{
+    width: 270px;
+    border: 1px dotted lightgray;
+    float: left;
+    margin-top: 13px;
+}
+.y_workTime{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.y_timeIcon{
+    float: left;
+    width: 28px;
+    vertical-align: middle;
+}
+.y_rightTitle{
+    width: 800px;
+    height: 60px;
+    /*background: red;*/
+    line-height: 60px;
+}
+.y_rightTitle>p{
+    font-size: 21px;
+}
+.y_titleLine1{
+    width: 80px;
+    border: 1px solid black;
+    float: left;
+}
+.y_titleLine2{
+    width: 710px;
+    border: 1px solid lightgrey;
+    float: left;
+}
+.y_reg_main{
+    margin-left: 75px;
+    width: 330px;
+    color: black;
+    float: left;
+}
+.y_veri{
+    width: 100px;
+    margin-top: 40px;
+    height: 180px;
+    float: right;
+    position: relative;
+    line-height: 16px;
+}
+.y_veri_email{
+    height: 33px;
+    width: 100px;
+    margin-top: 10px;
+}
+.y_veri_name{
+    height: 50px;
+    width: 100px;
+    margin-top: 12px;
+}
+.y_veri_pw{
+    height: 50px;
+    width: 100px;
+    margin-top: 8px;
+}
+.y_veri img{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-top: 6px;
+    display: none;
+}
+#y_name_right,#y_name_wrong{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#y_pw_right,#y_pw_wrong{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+#y_email_word2{
+    line-height: 33px;
+}
+.y_veri span{
+    font-size: smaller;
+    display: none;
+}
+.y_txt{
+    margin-top: 15px;
+    height: 33px;
+    width: 220px;
+    color: black;
+    border-radius:0.4em;
+    font-size: 14px;
+    padding: 3px 0 3px 3px;
+    border:1px solid #c2c2c2;
+    outline: none;
+}
+.y_txt1{
+    margin-top: 45px;
+    height: 33px;
+    width: 220px;
+    color: black;
+    border-radius: 0.4em;
+    font-size: 14px;
+    border:1px solid #c2c2c2;
+    padding: 3px 0 3px 3px;
+    outline: none;
+}
+.y_sex{
+    margin-top: 30px;
+}
+.y_reg_main>span{
+    font-weight: bold;
+}
+.y_btn{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0.4em;
+    border: 0;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.y_line{
+    margin-top: 45px;
+    float: left;
+    margin-left: 60px;
+    padding-left: 70px;
+    width: 220px;
+    height: 320px;
+    border-left: 2px dotted #c1c1c1;
+    line-height: 45px;
+    font-size: 18px;
+}
+.y_account{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.y_account1{
+    font-size: 15px;
+}
+.y_account>span{
+    color: red;
+    cursor: pointer;
+}
+.y_account>span:hover{
+    color: #ddaacf;
+}
+.y_line>img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border: 1px solid #bcbcba;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.y_more{
+    margin-top: 8px;
+    float: left;
+    font-size: 13px;
+    cursor: pointer;
+}
+.y_more:hover{
+    color: #c7c7d0;
+}
+.y_sina{
+    cursor: pointer;
+}
+.y_qq{
+    cursor: pointer;
+}

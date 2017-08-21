@@ -1,0 +1,20 @@
+/*公共*/
+*{
+    margin:0;
+    padding:0;
+}
+img{
+    border:none 0;
+}
+a{
+    text-decoration:none;
+    cursor:pointer;
+}
+ul li{
+    list-style:none;
+}
+body{
+    font-family:"楷体", STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+    font-size:15px;
+    background:#ffffff;
+}

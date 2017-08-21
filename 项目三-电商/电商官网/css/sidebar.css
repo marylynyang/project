@@ -1,0 +1,351 @@
+
+.clear{
+    clear:both
+}
+#y_bigsideWrap{
+    position: fixed;
+    z-index: 999;
+    right:0
+
+}
+#y_sidebarWrap{
+    width: 40px;
+    background: black;
+    position: fixed;
+    right: -40px;
+    float: left;
+    display: none;
+}
+#y_shopWrap{
+    width: 280px;
+    background:#f8f8f8 url("../images/sidebar/sidebar_gouwuche.png") no-repeat 50px 45%;
+    position: fixed;
+    right:-280px;
+    float: left;
+    display: none;
+}
+
+.y_sidebar{
+    width: 40px;
+    height: 600px;
+    position: relative;
+    /*background: black;*/
+    /*background: cornflowerblue;*/
+    text-align: center;
+    top:50%;
+    margin-top: -300px;
+}
+.y_sidebar_top{
+    /*float: left;*/
+    position: absolute;
+    top: 0;
+}
+.y_sidebar_btm{
+    position: absolute;
+    bottom:0
+    /*float: left;*/
+}
+.y_icon{
+    width: 40px;
+    height: 45px;
+    float:left;
+    line-height: 55px;
+    /*background: red;*/
+}
+.y_sidebar_user{
+    width: 40px;
+    height: 45px;
+    line-height: 55px;
+    cursor: pointer;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+.y_sidebar_shoucang{
+    width: 40px;
+    height: 45px;
+    line-height: 55px;
+    cursor: pointer;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+.y_sidebar_shopping{
+    width: 40px;
+    height: 150px;
+    cursor: pointer;
+    text-align: center;
+    float:left;
+    margin-top: 10px;
+    position: relative;
+}
+.y_sidebar_write{
+    width: 40px;
+    height: 45px;
+    line-height: 53px;
+    cursor: pointer;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+.y_sidebar_bankuai{
+    width: 40px;
+    height: 45px;
+    line-height: 55px;
+    cursor: pointer;
+    text-align: center;
+    float:left;
+    position: relative;
+}
+.y_backTop{
+    width: 40px;
+    height: 45px;
+    line-height: 20px;
+    cursor: pointer;
+    text-align: center;
+    float:left;
+    color: white;
+    margin-top: 5px;
+    position: relative;
+}
+.y_sidebar_user:hover{
+    background: #c10d00;
+}
+.y_sidebar_shoucang:hover{
+    background: #c10d00;
+}
+.y_sidebar_shopping:hover{
+    background: #c10d00;
+}
+.y_sidebar_write:hover{
+    background: #c10d00;
+}
+.y_sidebar_bankuai:hover{
+    background: #c10d00;
+}
+.y_backTop:hover{
+    background: #c10d00;
+}
+.y_sidebar_shopping:hover .y_sidebar_xian{
+    visibility: hidden;
+}
+.y_sidebar_shopping:hover .y_sidebar_xian1{
+    visibility: hidden;
+}
+.y_sidebar_icon{
+    width: 20px;
+    height: 20px;
+}
+.y_sidebar_icon1{
+    width: 15px;
+    height: 10px;
+}
+.y_sidebar_xian{
+    width: 25px;
+    height: 1px;
+    background:rgba(89, 89, 89, 0.65);
+    float: left;
+    border-radius: 0.4em;
+    margin-left: 18%;
+    margin-bottom: 14px;
+}
+.y_sidebar_xian1{
+    width: 25px;
+    height: 1px;
+    background:rgba(89, 89, 89, 0.65);
+    float: left;
+    border-radius: 0.4em;
+    margin-top: 10px;
+    margin-left: 18%;
+}
+.y_sidebar_gouwuche{
+    color: white;
+    margin-top: 20px;
+}
+.y_border{
+    width: 20px;
+    height: 20px;
+    background: #c10d00;
+    margin-top: 10px;
+    margin-left: 23%;
+    border-radius: 50%;
+}
+.y_mydata{
+    position: absolute;
+    color: white;
+    top:2.5px;
+    left: -109px;
+    background: url("../images/sidebar/kuang.png") no-repeat;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: none;
+    cursor: auto;
+}
+.y_erweima{
+    position: absolute;
+    color: white;
+    top:-105px;
+    left: -150px;
+    background: url("../images/sidebar/sidebar_erweima.png") no-repeat;
+    width: 161px;
+    height: 151px;
+    display: none;
+    box-shadow: -1px -1px 2px rgba(89, 85, 89, 0.15);
+    cursor: auto;
+}
+.y_sidebar_loginWrap{
+    position: absolute;
+    width: 350px;
+    height: 320px;
+    background: url("../images/sidebar/sidebar_login.png") no-repeat;
+    top:0;
+    left: -339px;
+    display: none;
+    cursor: auto;
+    box-shadow: -1px -1px 2px rgba(89, 85, 89, 0.15);
+}
+.y_sidebar_user:hover .y_mydata{
+    display: block;
+    animation: flipInX 1s;
+}
+.y_sidebar_shoucang:hover .y_mydata{
+    display: block;
+    animation: flipInX 1s;
+}
+.y_sidebar_write:hover .y_mydata{
+    display: block;
+    animation: flipInX 1s;
+}
+.y_backTop:hover .y_mydata{
+    display: block;
+    animation: flipInX 1s;
+}
+.y_sidebar_bankuai:hover .y_erweima{
+    display: block;
+    animation: fadeIn 1s;
+}
+.y_sidebar_shopping:hover .y_sidebar_loginWrap{
+    display: block;
+    animation: fadeIn 1s;
+}
+.y_sidebar_login{
+    width: 250px;
+    height: 230px;
+    /*background: cornflowerblue;*/
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top: -105px;
+    margin-left: -125px;
+    text-align: left;
+}
+.y_login_font{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.y_login_line01{
+    width: 100px;
+    height:1px;
+    border-top: 1px solid  #c10d00;
+    float: left;
+}
+.y_login_line02{
+    width: 150px;
+    height:1px;
+    border-top: 1px solid #e5e5e5;
+    float: left;
+}
+.y_login_user{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7 url("../images/sidebar/login_user.png") no-repeat 3px;
+    background-size:12px;
+}
+.y_login_password{
+    width: 240px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    outline: none;
+    border: 1px solid #e5e5e5;
+    background: #f7f7f7 url("../images/sidebar/login_password.png") no-repeat 5px;
+    background-size:12px;
+}
+.y_login_btn{
+    width: 250px;
+    height: 40px;
+    float: left;
+    margin-top: 15px;
+    outline: none;
+    border: 0;
+    background: #f54f4f;
+    color: white;
+    font:17px bolder 微软雅黑;
+    cursor: pointer;
+}
+.y_reg_font{
+    float: right;
+    font-size:13px;
+    margin-top: 20px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.y_reg_font:hover{
+    color: #f54f4f;
+}
+.y_shoppingTitle{
+    width: 280px;
+    height: 40px;
+    background: #303030;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+.y_jiantou{
+    float: left;
+    margin-left: 20px;
+}
+.y_myshopping{
+    float: left;
+    margin-left: 70px;
+}
+.y_shoppingFooter{
+    width: 280px;
+    height: 120px;
+    background: white;
+    position: absolute;
+    bottom: 0;
+}
+.y_shopFont1{
+    display: block;
+    float: left;
+    margin-top:20px;
+    margin-left: 10px;
+}
+.y_shopFont2{
+    display: block;
+    float: right;
+    margin-top:20px;
+    margin-right: 10px;
+}
+.y_shopBtn{
+    width: 260px;
+    height: 50px;
+    background: #e43a3d;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    border: 0;
+    float: left;
+    margin-top:20px;
+    margin-left: 10px;
+}

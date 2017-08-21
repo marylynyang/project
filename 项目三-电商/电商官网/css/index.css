@@ -1,0 +1,722 @@
+/*第一部分 新品上市*/
+.clear{
+    clear: both;
+}
+.x_contentWrap{
+    width: 100%;
+    /*background:cornflowerblue;*/
+}
+.x-wrap{
+    width: 1150px;
+    /*border: 3px solid black;*/
+    margin: 22px auto;
+}
+.x-banner{
+    text-align: center;
+    border-bottom: 2px solid rgba(20, 34, 35, 0.91);
+    width: 1150px;
+}
+
+.x-zi{
+    background-color: rgba(20, 34, 35, 0.91);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.x-xinpin{
+    float: left;
+    width: 1150px;
+    /*border: 2px solid sandybrown;*/
+
+    /*height: 450px;*/
+    background: #f7f7f7;
+    /*position: relative;*/
+}
+.x-xinpin1{
+    float: left;
+    width: 1150px;
+    margin-top:25px;
+    /*border: 2px solid sandybrown;*/
+
+    /*height: 450px;*/
+    background: #f7f7f7;
+    /*position: relative;*/
+}
+.x-xp{
+    position: relative;
+    float: left;
+    margin: 18.75px;
+}
+.xinpin-kuang{
+    width: 200px;
+    height: 140px;
+    background-color: rgba(255,255,255,0.6);
+    position: absolute;
+    top: 250px;
+    left: 23px;
+    text-align: center;
+    color: black;
+    line-height: 30px;
+    z-index: 1;
+    border: 1px solid rgba(89, 89, 89, 0.3);
+
+}
+.xinpin-pic{
+    width: 250px;
+    height: 360px;
+    float: left;
+    cursor: pointer;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.x-pic1{
+    width: 250px;
+    height: 360px;
+
+}
+.x-btn{
+    width:125px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 0.4em;
+    cursor: pointer;
+    outline: none;
+    margin-top: 8px;
+}
+.x-men{
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 130px;
+    opacity: 0;
+    background-color: rgba(69, 66, 39, 0.2);
+}
+.xinpin-pic:hover>.x-men{
+    opacity: 1;
+    transition: 1s;
+}
+.xinpin-pic:hover>.x-pic1{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.x_xinpinConect{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.x_xinpinDel{
+    margin-left: 10px;
+}
+
+/*第二部分 王牌特卖*/
+.w_wrapConent{
+    width: 100%;
+    /*background: cornflowerblue;*/
+}
+.clear{
+    clear: both;
+}
+.w_wrap_brandSale{
+    width: 1150px;
+    /*background: violet;*/
+    margin: 0 auto;
+}
+.w_brand_title{
+    text-align: center;
+    border-bottom: 2px solid rgba(20, 34, 35, 0.91);
+    width: 1150px;
+    margin-top: 50px;
+}
+.w_brand_btn{
+    background-color: rgba(20, 34, 35, 0.91);
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+.w_brand_show{
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    padding: 20px 10px;
+}
+.w_brand_pic{
+    width: 558px;
+    height: 250px;
+    /*background-color: cyan;*/
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.w_shadow {
+    position: absolute;
+    width: 558px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    box-shadow: 10px 10px 30px 20px rgba(22, 22, 20, 0.65) inset;
+    opacity: 0;
+    transition: 1s;
+}
+.w_show_left{
+    width: 558px;
+    float: left;
+}
+.w_show_left>h5,.w_show_right>h5{
+    float: left;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+    color: rgba(66, 64, 70, 0.91);
+}
+.w_show_left>h5:hover{
+    color: #c7c7c5
+}
+.w_show_right>h5:hover{
+    color: #c7c7c5
+}
+.w_show_left>h4,.w_show_right>h4{
+    float: right;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+.w_show_right{
+    width: 558px;
+    float: right;
+}
+.w_brand_pic>img{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+.w_scale{
+    transform: scale(1.2);
+}
+.w_block{
+    opacity: 1;
+}
+.w_count1{
+    position: absolute;
+    width: 538px;
+    bottom: 0;
+    background-color: rgba(30, 24, 35, 0.4);
+    height: 30px;
+    line-height: 30px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+    left:0
+}
+
+/*第三部分 女装男装*/
+.z-clothing {
+    width: 100%;
+}
+
+.z-content {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 20px 0 50px 0;
+}
+
+.z-fgx img {
+    width: 1150px;
+
+}
+
+/*女装*/
+
+.z-ladies {
+    width: 1150px;
+    float: left;
+    margin-top: 20px;
+}
+
+.z-jiantou {
+    width: 6px;
+    height: 11px;
+    float: left;
+    margin-top: 15px;
+    background: url("../images/index/xiaojiantou.png");
+}
+
+.z-ladies_1F {
+    width: 1150px;
+    height: 57px;
+    float: left;
+    margin-top: -30px;
+    overflow: hidden;
+    background: url("../images/index/1F.png");
+}
+
+.z-ladies_1F ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.z-ladies_1F li {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.z-ladies_1F li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.z-ladies_content {
+    width: 1150px;
+    height: 510px;
+    margin-top: 10px;
+}
+
+.z-ladies_fl {
+    width: 368px;
+    height: 510px;
+    float: left;
+    background: url("../images/index/ladies1.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big {
+    width: 368px;
+    height: 510px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.z_big:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big:hover .z-ladies_fl {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z-ladies_top1 {
+    float: left;
+    /*margin-left: 6px;*/
+    width: 524px;
+    height: 277px;
+    background: url("../images/index/ladies2.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big1 {
+    width: 524px;
+    height: 277px;
+    float: left;
+    margin-left: 6px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.z_big1:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big1:hover .z-ladies_top1 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z-ladies_top2 {
+    float: left;
+    /*margin-left: 6px;*/
+    width: 245px;
+    height: 277px;
+    background: url("../images/index/ladies3.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big2 {
+    width: 245px;
+    height: 277px;
+    float: left;
+    margin-left: 6px;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.z_big2:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big2:hover .z-ladies_top2 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z-ladies_btm1 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/ladies4.png");
+    position: relative;
+    z-index: -1;
+}
+.z-mask{
+    width: 190px;
+    height: 50px;
+    background: rgba(75, 75, 75, 0.8);
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-size: 12px;
+}
+.z_big3:hover .z-mask{
+    opacity: 1;
+    transition: 1s;
+}
+
+
+.z-ladies_btm2 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/ladies5.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z-ladies_btm3 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/ladies6.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z-ladies_btm4 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/ladies7.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big3 {
+    width: 190px;
+    height: 228px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+
+.z_big3:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big3:hover .z-ladies_btm1 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z_big3:hover .z-ladies_btm2 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z_big3:hover .z-ladies_btm3 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z_big3:hover .z-ladies_btm4 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*男装*/
+.z-gentle {
+    width: 1150px;
+    float: left;
+    margin-top: 20px;
+}
+
+.z-gentle_2F {
+    width: 1150px;
+    height: 57px;
+    float: left;
+    margin-top: -30px;
+    overflow: hidden;
+    background: url("../images/index/2F.png");
+}
+
+.z-gentle_2F ul {
+    float: right;
+    margin-top: 30px;
+}
+
+.z-gentle_2F li {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.z-gentle_2F li:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.z-gentle_content {
+    width: 1150px;
+    height: 510px;
+    margin-top: 10px;
+}
+
+.z-gentle_fl {
+    width: 368px;
+    height: 510px;
+    float: left;
+    background: url("../images/index/gentle1.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big {
+    width: 368px;
+    height: 510px;
+    float: left;
+    overflow: hidden;
+}
+
+.z_big:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big:hover .z-gentle_fl {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z-gentle_top1 {
+    float: left;
+    width: 524px;
+    height: 277px;
+    background: url("../images/index/gentle2.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big1 {
+    width: 524px;
+    height: 277px;
+    float: left;
+    margin-left: 6px;
+    overflow: hidden;
+}
+
+.z_big1:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big1:hover .z-gentle_top1 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z-gentle_top2 {
+    float: left;
+    width: 245px;
+    height: 277px;
+    background: url("../images/index/gentle3.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big2 {
+    width: 245px;
+    height: 277px;
+    float: left;
+    margin-left: 6px;
+    overflow: hidden;
+}
+
+.z_big2:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big2:hover .z-gentle_top2 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z-gentle_btm1 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/gentle4.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z-gentle_btm2 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/gentle5.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z-gentle_btm3 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/gentle6.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z-gentle_btm4 {
+    float: left;
+    width: 190px;
+    height: 228px;
+    background: url("../images/index/gentle7.png");
+    position: relative;
+    z-index: -1;
+}
+
+.z_big3 {
+    width: 190px;
+    height: 228px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.z_big3:hover {
+    transition: 1s;
+    box-shadow: 10px 10px 30px 10px rgba(22, 22, 20, 0.2) inset;
+}
+
+.z_big3:hover .z-gentle_btm1 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z_big3:hover .z-gentle_btm2 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z_big3:hover .z-gentle_btm3 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.z_big3:hover .z-gentle_btm4 {
+    transform: scale(1.1);
+    transition: 1s;
+}
+.z_color{
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*蒙版*/
+.z-ladies_ban {
+    width: 340px;
+    height: 190px;
+    background: rgba(255, 255, 255, 0.60);
+    margin: 280px auto;
+    position: relative;
+}
+.z-ladies_ban2{
+    width: 310px;
+    height: 160px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -155px;
+    margin-top: -80px;
+    border: 1px solid gray;
+}
+.z-ladies_ban3{
+    width: 72px;
+    height: 50px;
+    background: #2c3264;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -36px;
+    margin-left: -35px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.z-ladies_ban3 p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.z-lineWrap{
+    width: 300px;
+    height: 20px;
+    /*background: red;*/
+    margin-top: 110px;
+    margin-left: 5px;
+}
+.z-line{
+    width: 75px;
+    height: 1px;
+    background: black;
+    float: left;
+    margin-top: 10px;
+}
+.z-line2{
+    width: 65px;
+    height: 1px;
+    background: black;
+    float: right;
+    margin-top: 10px;
+}
+.z_dian1{
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 4px;
+    float: left;
+}
+.z_dian2{
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 3px;
+    float: left;
+}

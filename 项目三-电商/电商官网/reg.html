@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reg</title>
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script type="text/javascript" src="js/reg.js"></script>
+    <script src="js/sidebar.js"></script>
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+</head>
+<body>
+<!--侧边栏-->
+<div id="y_bigsideWrap">
+    <div id="y_sidebarWrap">
+        <div class="y_sidebar">
+            <div class="y_sidebar_top">
+                <div class="y_icon">
+                    <img src="images/sidebar/timg.jpg" alt="" class="y_sidebar_icon">
+                </div>
+                <div class="y_sidebar_user">
+                    <img src="images/sidebar/sidebar_user.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的资料
+                    </div>
+                </div>
+                <div class="y_sidebar_shoucang">
+                    <img src="images/sidebar/sidebar_shoucang.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的收藏
+                    </div>
+                </div>
+                <div class="y_sidebar_shopping">
+                    <div class="y_sidebar_xian"></div>
+                    <img src="images/sidebar/sidebar_shopping.png" alt="" class="y_sidebar_icon">
+                    <div class="y_sidebar_gouwuche">
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <p class="y_border">0</p>
+                    </div>
+                    <div class="y_sidebar_xian1"></div>
+                    <div class="y_sidebar_loginWrap">
+                        <div class="y_sidebar_login">
+                            <p class="y_login_font">账号密码登录</p>
+                            <div class="clear"></div>
+                            <div class="y_login_line01"></div>
+                            <div class="y_login_line02"></div>
+                            <div class="clear"></div>
+                            <input type="text" class="y_login_user" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号">
+                            <div class="clear"></div>
+                            <input type="password" class="y_login_password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码">
+                            <div class="clear"></div>
+                            <input type="submit" value="登录" class="y_login_btn">
+                            <div class="clear"></div>
+                            <p class="y_reg_font" onclick="JavaScript:window.open('reg.html','_blank')">免费注册></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="y_sidebar_btm">
+                <div class="y_sidebar_write">
+                    <img src="images/sidebar/sidebar_write.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        留言
+                    </div>
+                </div>
+                <div class="y_sidebar_bankuai">
+                    <img src="images/sidebar/sidebar_bankuai.png" alt="" class="y_sidebar_icon">
+                    <div class="y_erweima"></div>
+                </div>
+                <div class="y_backTop">
+                    <img src="images/sidebar/sidebar_backTop.png" alt="" class="y_sidebar_icon1">
+                    <span>TOP</span>
+                    <div class="y_mydata">
+                        回到顶部
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="y_shopWrap">
+        <div class="y_shoppingTitle">
+            <span class="y_jiantou">>></span><span class="y_myshopping">我的购物车</span>
+        </div>
+        <div class="clear"></div>
+        <div class="y_shoppingFooter">
+            <p><span class="y_shopFont1">共0件商品</span><span class="y_shopFont2">共计:<span style="color: red">￥0.00</span></span></p>
+            <div class="clear"></div>
+            <button class="y_shopBtn">去购物车结算</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<!--引入底部-->
+<div id="header"></div>
+<div id="y_regWrap">
+    <div class="y_reg">
+        <div class="y_regBanner"></div>
+        <div class="y_regConnect">
+            <div class="y_connectLeft">
+                <div class="y_leftTitle">
+                    <p>在线客服</p>
+                </div>
+                <div class="clear"></div>
+                <div class="y_zaixiankefu">
+                    <div style="cursor: pointer" onclick="JavaScript:window.open('http://shang.qq.com/email/stop/email_stop.html?qq=258506508&sig=56a30e0d4bff2528c6e2173dda8c5935c9724122c4589bbc&tttt=1','_blank')">
+                        <img src="images/reg/alww_icon.png" alt="" class="y_alwwIcon" >
+                        <span class="y_zaixianBlock">客服一</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div style="margin-top:10px;cursor: pointer" onclick="JavaScript:window.open('http://shang.qq.com/email/stop/email_stop.html?qq=258506508&sig=56a30e0d4bff2528c6e2173dda8c5935c9724122c4589bbc&tttt=1','_blank')">
+                        <img src="images/reg/alww_icon.png" alt="" class="y_alwwIcon">
+                        <span class="y_zaixianBlock">客服二</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="y_greyLine"></div>
+                    <div class="clear"></div>
+                    <div class="y_workTime">
+                        <img src="images/reg/clock.png" alt="" class="y_timeIcon">
+                        <span class="y_zaixianBlock1">工作时间</span>
+                    </div>
+                    <div class="clear"></div>
+                    <p class="y_zaixianBlock2">周一至周五：8:30-17:30</p>
+                    <p class="y_zaixianBlock2">周六至周日：9:00-17:00</p>
+                </div>
+            </div>
+            <div class="y_connectRight">
+                <div class="y_rightTitle">
+                    <p>会员注册</p>
+                    <div class="clear"></div>
+                    <div class="y_titleLine1"></div>
+                    <div class="y_titleLine2"></div>
+                    <div style="clear: both"></div>
+                </div><br/>
+
+                <div class="y_reg_main">
+                    <div class="y_veri">
+                        <div class="y_veri_email">
+                            <img src="images/reg/right.png" alt="" id="y_email_right">
+                            <img src="images/reg/wrong.png" alt="" id="y_email_wrong">
+                            <span id="y_email_word">请输入正确的邮箱地址</span>
+                            <span id="y_email_word2">邮箱不能为空</span>
+                        </div>
+                        <div class="y_veri_name">
+                            <img src="images/reg/right.png" alt="" id="y_name_right">
+                            <img src="images/reg/wrong.png" alt="" id="y_name_wrong">
+                            <span id="y_name_word">请填写字母开头，由数字或字母组成的4-9位字符</span>
+                            <span id="y_name_word2">昵称不能为空</span>
+                        </div>
+                        <div class="y_veri_pw">
+                            <img src="images/reg/right.png" alt="" id="y_pw_right">
+                            <img src="images/reg/wrong.png" alt="" id="y_pw_wrong">
+                            <span id="y_pw_word">请填写由数字或者字母组成的6-12位字符</span>
+                            <span id="y_pw_word2">密码不能为空</span>
+                        </div>
+                    </div>
+                    <input class="y_txt1" type="text" placeholder=" 电子邮箱" id="y_email"><br/>
+                    <input class="y_txt" type="text" placeholder=" 昵称" id="y_name"><br/>
+                    <input class="y_txt" type="text" placeholder=" 密码" id="y_password"><br/>
+                    <input class="y_sex" type="radio" name="sex" checked="checked"><span>女</span>&nbsp;&nbsp;
+                    <input class="y_sex" type="radio" name="sex"><span>男</span><br/><br/>
+                    <button class="y_btn">立即注册</button><br/><br/>
+                    <label style="cursor: pointer"><input type="checkbox" checked="checked"><span style="margin-left: 5px">已阅读并同意注册条款</span></label>
+                </div>
+
+                <div class="y_line">
+                    <p class="y_account">用会员账号<span>登录</span></p>
+                    <p class="y_account1">你还可以用以下方式进行登录：</p>
+                    <img src="images/reg/sina.png" alt="" class="y_sina">
+                    <img src="images/reg/qq.png" alt="" class="y_qq">
+                    <span class="y_more">更多>></span>
+                </div>
+
+
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+
+
+</div>
+<!--引入底部-->
+<div id="footer"></div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+body{
+    overflow-x: hidden;
+}
+.clear{
+    clear: both;
+}
+#y_saleWrap{
+    width: 100%;
+    /*background: cornflowerblue;*/
+}
+
+.y_saleBanner{
+    width: 1340px;
+    height: 550px;
+    background: url("../images/sale/sale_banner.png") no-repeat;
+    margin: 0 auto;
+}
+.y_saleConnect{
+    width: 1150px;
+    margin:  0 auto;
+    /*background: cornsilk;*/
+    padding: 50px 0;
+}
+.y_saleTitle{
+    width: 1150px;
+    position: relative;
+    text-align: center;
+}
+.y_whiteline{
+    width: 100px;
+    border: 1px solid white;
+}
+.y_saleIcon{
+    width: 130px;
+    height: 130px;
+    border-radius: 0.4em;
+    background: black;
+    transform: rotate(45deg);
+    position:relative;
+    left:50%;
+    margin-left: -65px;
+    text-align: center;
+    color: white;
+}
+.y_saleFont{
+    transform: rotate(-45deg);
+    float: left;
+    margin-top:10px;
+    margin-left: 12px;
+}
+.y_font{
+    font-size: 60px;
+    font-weight: bold;
+}
+.y_font1{
+    font-size: 14px;
+    margin-top: 3px;
+}
+.y_saleFont1{
+    font-size:35px;
+    font-weight: bolder;
+    margin-top: 34px;
+}
+.y_greyline{
+    width: 1150px;
+    margin-top: 7px;
+    border: 1px dotted lightgray;
+}
+.y_saleFont2{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 7px;
+}
+.y_saleFont3{
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+/*模板*/
+#y_itemHtml{
+    width: 263px;
+    height: 520px;
+    background: cornflowerblue;
+    float: left;
+    position: relative;
+    display: none;
+}
+.y_muban{
+    width: 263px;
+    height: 520px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 20px;
+    position: relative;
+    text-align: center;
+}
+.y_mubanimg{
+    width: 263px;
+    height: 400px;
+    float: left;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.y_mubanimg:hover img{
+    transform: scale(1.1);
+}
+.y_mubanimg:hover .y_muban_menban{
+    display: block;
+}
+.y_mubanimg img{
+    transition: 1s;
+    position: absolute;
+    top:0;
+    left: 0;
+    /*position: relative;*/
+
+}
+.y_muban_menban{
+    width: 263px;
+    height: 400px;
+    background: rgba(188, 188, 186, 0.3) url("../images/sale/imageEffetc_magnifier.png") no-repeat 50% 50%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.y_mubanTitle{
+    margin-top: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.y_mubanTitle:hover{
+    color: #bcbcba;
+}
+.y_mubanMarket{
+    margin-top: 7px;
+    font-size: 14px;
+}
+.y_mubanPrice{
+    margin-top: 7px;
+    font-size: 15px;
+}
+.y_mubangoumai{
+    width: 100px;
+    height: 30px;
+    background: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 82px;
+    margin-top: 7px;
+    cursor: pointer;
+    border-radius: 0.4em;
+}
+
+#y_articleList{
+    width: 1150px;
+}
+
+.ckgdwrap{
+    float: left;
+    margin-left: 500px;
+    margin-top: 40px;
+    width:0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 60px solid black;
+    position: relative;
+    cursor: pointer;
+
+}
+.ckgd{
+    position: absolute;
+    top:-45px;
+    left: -28px;
+    width: 75px;
+    /*width:0;*/
+    /*height: 0;*/
+    /*border-left: 50px solid transparent;*/
+    /*border-right: 50px solid transparent;*/
+    /*border-top: 100px solid black;*/
+
+    /*width: 107px;*/
+    /*height: 175px;*/
+
+    color: white;
+}
+.ckgdwrap:hover{
+    transform: translateY(25px);
+    transition: 1s;
+}

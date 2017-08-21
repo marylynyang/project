@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shopList</title>
+    <link rel="stylesheet" href="css/shopList.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/move.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/shopList.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/shopListData.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+
+</head>
+<body>
+<!--侧边栏-->
+<div id="y_bigsideWrap">
+    <div id="y_sidebarWrap">
+        <div class="y_sidebar">
+            <div class="y_sidebar_top">
+                <div class="y_icon">
+                    <img src="images/sidebar/timg.jpg" alt="" class="y_sidebar_icon">
+                </div>
+                <div class="y_sidebar_user">
+                    <img src="images/sidebar/sidebar_user.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的资料
+                    </div>
+                </div>
+                <div class="y_sidebar_shoucang">
+                    <img src="images/sidebar/sidebar_shoucang.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        我的收藏
+                    </div>
+                </div>
+                <div class="y_sidebar_shopping">
+                    <div class="y_sidebar_xian"></div>
+                    <img src="images/sidebar/sidebar_shopping.png" alt="" class="y_sidebar_icon">
+                    <div class="y_sidebar_gouwuche">
+                        <p>购</p>
+                        <p>物</p>
+                        <p>车</p>
+                        <p class="y_border">0</p>
+                    </div>
+                    <div class="y_sidebar_xian1"></div>
+                    <div class="y_sidebar_loginWrap">
+                        <div class="y_sidebar_login">
+                            <p class="y_login_font">账号密码登录</p>
+                            <div class="clear"></div>
+                            <div class="y_login_line01"></div>
+                            <div class="y_login_line02"></div>
+                            <div class="clear"></div>
+                            <input type="text" class="y_login_user" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;账号">
+                            <div class="clear"></div>
+                            <input type="password" class="y_login_password"
+                                   placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;密码">
+                            <div class="clear"></div>
+                            <input type="submit" value="登录" class="y_login_btn">
+                            <div class="clear"></div>
+                            <p class="y_reg_font" onclick="JavaScript:window.open('reg.html','_blank')">免费注册></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="y_sidebar_btm">
+                <div class="y_sidebar_write">
+                    <img src="images/sidebar/sidebar_write.png" alt="" class="y_sidebar_icon">
+                    <div class="y_mydata">
+                        留言
+                    </div>
+                </div>
+                <div class="y_sidebar_bankuai">
+                    <img src="images/sidebar/sidebar_bankuai.png" alt="" class="y_sidebar_icon">
+                    <div class="y_erweima"></div>
+                </div>
+                <div class="y_backTop">
+                    <img src="images/sidebar/sidebar_backTop.png" alt="" class="y_sidebar_icon1">
+                    <span>TOP</span>
+                    <div class="y_mydata">
+                        回到顶部
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="y_shopWrap">
+        <div class="y_shoppingTitle">
+            <span class="y_jiantou">>></span><span class="y_myshopping">我的购物车</span>
+        </div>
+        <div class="clear"></div>
+        <div class="y_shoppingFooter">
+            <p><span class="y_shopFont1">共0件商品</span><span class="y_shopFont2">共计:<span style="color: red">￥0.00</span></span>
+            </p>
+            <div class="clear"></div>
+            <button class="y_shopBtn">去购物车结算</button>
+        </div>
+    </div>
+    <div class="clear"></div>
+</div>
+<div id="header"></div>
+<!--最大的-->
+<div class="q_wrap">
+    <div class="q_content">   <!--width1150-->
+        <div class="fl" style="width:995px">
+            <!--左边的图片-->
+            <div class="q_img fl" style=";margin-top: 30px">
+                <img src="" alt="" class="q_smpic q_none  q_show" id="coverImg01"><!--//要改-->
+                <img src="" alt="" class="q_smpic q_none " id="coverImg02"> <!--//要改-->
+                <img src="" alt="" class="q_smpic q_none " id="coverImg03"> <!--//要改-->
+                <div id="box"></div>
+            </div>
+            <!--放大镜-->
+            <div class="q_content2">
+                <div id="q_bigpic">
+                    <img src="" alt="" class="q_bigpic1 q_bigshow2  q_show" id="coverImg04"><!--//要改-->
+                    <img src="" alt="" class="q_bigpic1  q_bigshow" id="coverImg05"> <!--//要改-->
+                    <img src="" alt="" class="q_bigpic1 q_bigshow1" id="coverImg06"> <!--//要改-->
+                </div>
+            </div>
+
+            <!--中间内容-->
+            <div class="fl q_toptitle">
+                <h2 id="shopTitle"></h2>   <!--//要改-->
+                <div class="q_value1">
+                    <p class="fl">价格：</p>
+                    <p class="fl"><span class="q_value" id="shopPrice"></span></p><!--//要改-->
+                    <p class="fr" style="margin-right: 8px">
+                        评价：<span class="q_pijia">0</span>
+                        累计销量：<span class="q_xiaoliang" id="shopXiaoLiang"></span> <!--//要改-->
+                    </p>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+                <div class="q_ding">
+                    <p class="q_kefu">客服：<span style="margin-left: 10px"></span><img src="images/shopList/alww_icon.png"
+                                                                                     alt="" style="width: 16px;vertical-align: middle "
+                                                                                     class="y_alwwIcon">
+                        <span>联系客服</span></p>
+                    <div class="clear"></div>
+                    <p class="fl">颜色：</p>
+                    <div class="fl q_xuanze_img">
+                        <!--小图片-->
+                        <div class="q_click1">
+                            <img src="" alt="" class="q_click" id="smallCoverImg01"><!--//要改-->
+                            <img src="images/shopList/shopList_icon6.png" class="q_mengban1">
+                        </div>
+                        <div class="q_click1">
+                            <img src="" alt="" class="q_click" id="smallCoverImg02"><!--//要改-->
+                            <img src="images/shopList/shopList_icon6.png" class="q_mengban1 ">
+                        </div>
+                        <div class="q_click1">
+                            <img src="" alt="" class="q_click" id="smallCoverImg03"><!--//要改-->
+                            <img src="images/shopList/shopList_icon6.png" class="q_mengban1 ">
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+                    <div style="margin-top: 10px">
+                        <p class="fl" style="margin-top: 10px">尺码：</p>
+                        <div class="q_xuanze1 fl">均码
+                            <img src="images/shopList/shopList_icon6.png" alt="" class="q_mengban">
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div>
+                        <p class="fl" style="margin-top: 10px">数量：</p>
+                        <div id="app" style="margin-left: 20px">
+                            <my-b class="fl q_btn1"></my-b>
+                            <my-a class="fl q_btn"></my-a>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <button class="q-btn1 fl q-bg">立刻购买</button>
+                    <button class="q-btn1 fl">加入购物车</button>
+                    <div class="clear"></div>
+                    <div class="fl q_love q_hover">304
+                    </div>
+                    <div class="fl q_share q_hover">分享
+                        <p class="q_share1"></p>
+                    </div>
+                    <div class="clear"></div>
+
+                    <div style="margin-top: 15px">
+                        <p class="fl" style="margin-top: 13px">服务承诺：</p>
+                        <p class="q_div fl q_bg1">退货补运费</p>
+                        <p class="q_div fl q_bg2">全国包邮 </p>
+                        <p class="q_div1 fl q_bg3">7天无理由退货 </p>
+                        <p class="q_div fl q_bg4"> 72小时发货</p>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div>
+                        <p class="fl" style="margin-top: 10px">支付方式：</p>
+                        <p class="q_bg5 fl"></p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!--三张中图片-->
+            <div style="margin-top: 40px">
+                <div class="fl q_tab1">
+                    <img src="" alt="" class="q_tab" id="middleCoverImg01">   <!--//要改-->
+                    <div class="q_meng1"></div>
+                </div>
+                <div class="fl q_tab1">
+                    <img src="" alt="" class="q_tab" id="middleCoverImg02">   <!--//要改-->
+                    <div class="q_meng1"></div>
+                </div>
+                <div class="fl q_tab1">
+                    <img src="" alt="" class="q_tab" id="middleCoverImg03">   <!--//要改-->
+                    <div class="q_meng1"></div>
+                </div>
+            </div>
+        </div>
+        <!--顶部右边栏-->
+        <div class="fr q_right">
+            <div class="q_righttitle">热卖推荐</div>
+            <div class="q_box fl">
+                <img src="" alt="" id="rightCoverImg01">   <!--// 图片要改-->
+            </div>
+            <div class="clear"></div>
+            <div class="q_righttitle" id="rightPrice01"></div>  <!--//要改-->
+            <div class="q_box fl">
+                <img src="" alt="" id="rightCoverImg02">   <!--// 图片要改-->
+            </div>
+            <div class="clear"></div>
+            <div class="q_righttitle" id="rightPrice02"></div>   <!--//要改-->
+            <div class="q_box fl">
+                <img src="" alt="" id="rightCoverImg03">   <!--// 图片要改-->
+            </div>
+            <div class="clear"></div>
+            <div class="q_righttitle" id="rightPrice03"></div>  <!--//要改-->
+        </div>
+
+        <div class="clear"></div>
+        <!--下面商品详情 -->
+        <div class="q_content1 fl">
+            <div class="q_gouwu">
+                <ul class="q_pos ">
+                    <li class="q_li q_box2 q_border" style="border-left: none">商品详情</li>
+                    <li class="q_li q_box1">累计评价</li>
+                    <li class="q_js">
+                        手机扫码下单 <i class="fa fa-qrcode "></i> <i class="fa fa-caret-down q_js1"></i>
+                        <img src="images/shopList/q_qrcode.png" alt="" class="q_qrcode">
+                    </li>
+                </ul>
+                <!--右边购物篮-->
+                <div>
+                    <div class="q_gou">
+                        <div class="q_gou1">
+                            <div class="q_gou_title">
+                                加入购物车
+                            </div>
+                            <ul style="border-top:1px solid #dddddd " class="q_fl_l">
+                                <li class="q_shop"><a href="#a" class="q_shop_a">商品描述</a></li>
+                                <li class=""><a href="#b">尺码说明</a></li>
+                                <li class=""><a href="#c">穿着效果</a></li>
+                                <li class=""><a href="#d">商品推荐</a></li>
+                            </ul>
+                        </div>
+                        <div class="q_gou_title1">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+
+            <div class="q_lishow q_show">
+
+                <ul class="q_li1 q_fl_r">
+                    <li id="a"><h3>
+                        商品描述
+                    </h3>
+                        <p id="shopMiaoshu" style="margin-top: 10px"></p>    <!--//要改-->
+                    </li>
+                    <li id="b"><!--//尺码说明-->
+                        <h3>
+                            尺码说明
+                        </h3>
+                        <img src="" alt="" id="shopshuoming" style="margin-top: 10px">   <!--//要改-->
+                    </li>
+                    <li id="c"><h3>
+                        穿着效果
+                    </h3>
+                        <p id="shopXiaoguo" style="margin-top: 10px"></p>  <!--//要改-->
+                        <img src="" alt="" id="shopFAhuo" style="margin-top: 20px">    <!--//发货要改-->
+
+                        <img src="" alt="" id="shopYangshi">                    <!--//样式-->
+                    </li>
+
+
+                    <li id="d">
+                        <h3>
+                            商品推荐
+                        </h3> <!--//商品推荐-->
+                        <img src="" alt="" id="shangpintuijian" style="margin-top: 10px">   <!--//要改-->
+                    </li>
+                </ul>
+            </div>
+            <div class="q_lishow" style="height: 1000px">
+                <ul class="q_li3">
+                    <li class="q_li2">
+                        <h3>
+                        买家评价
+                    </h3>
+                        <p class="q_li2">还没有买家进行文字或晒图评价，等你来评价哦~ </p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="clear"></div>
+
+</div>
+
+<div id="footer"></div>
+</body>
+</html>

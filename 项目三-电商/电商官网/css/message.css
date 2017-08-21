@@ -1,0 +1,264 @@
+
+.clear{
+    clear: both;
+}
+.w_message_banner {
+    width: 100%;
+    height: 550px;
+    background: url("../images/message/message_banner.png") no-repeat center 100%;
+}
+.w_contact_main{
+    width: 1150px;
+    margin: 0 auto;
+    padding: 30px 0 50px 0;
+    /*padding-top: 20px;*/
+    /*padding-left: 100px;*/
+}
+.w_server{
+    float: left;
+    width: 270px;
+    margin-right: 20px;
+    /*background-color: aqua;*/
+}
+.w_online1{
+    width: 270px;
+    height: 60px;
+    background: black;
+    color: white;
+    line-height: 65px;
+    float: left;
+    margin-top: 15px;
+}
+.w_online1 span{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.w_online{
+    width: 270px;
+    height: 60px;
+    background: black;
+    color: white;
+    line-height: 65px;
+    float: left;
+}
+.w_online span{
+    font-size: 20px;
+    margin-left: 15px;
+}
+.w_ser_ico{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    position: relative;
+}
+.w_ser_ico>img{
+    width: 20px;
+    position: absolute;
+}
+.w_name{
+    height: 20px;
+    line-height: 20px;
+    margin-left: 3px;
+    float: left;
+    margin-top: 12px;
+    font-size: 14px;
+    color: darkslategrey;
+}
+.w_clock{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 30px;
+    float: left;
+}
+.w_clock>img{
+    height: 30px;
+    width: 30px;
+    float: left;
+    vertical-align: middle;
+}
+.w_time{
+    float: left;
+    margin-top: 14px;
+    margin-left: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.w_line{
+    color: lightgray;
+}
+.w_address{
+    float: left;
+    /*margin-left: 60px;*/
+    width: 860px;
+}
+.w_add_title{
+     height: 60px;
+     line-height: 60px;
+     font-size: 16px;
+     width: 860px;
+     text-align: left;
+    background: cornflowerblue;
+     border-bottom: 2px solid blanchedalmond;
+ }
+.w_add_title>div{
+    width: 80px;
+    border-bottom: 2px solid black;
+}
+.w_add_title1>div{
+    /*width: 140px;*/
+    /*border-bottom: 2px solid black;*/
+}
+.w_add_title1{
+    height: 60px;
+    line-height: 60px;
+    font-size: 16px;
+    width: 860px;
+    text-align: left;
+    /*border-bottom: 2px solid lightgray;*/
+    margin-bottom: 20px;
+}
+.w_add_title2{
+
+
+    text-align: left;
+    margin-top: 20px;
+    float: left;
+}
+
+.w_map{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+.w_txt{
+    width: 279px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.w_address{
+    line-height: 50px;
+}
+.w_address>span{
+    margin-left: 20px;
+}
+.w_content{
+    float: left;
+    margin-left: 19px;
+    line-height: 150px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+.w_txt2{
+    margin-top: 10px;
+    padding-top: 8px;
+    padding-left: 8px;
+    font-family: "楷体", STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+}
+.w_submit{
+    background-color: #8e8e8e;
+    width: 250px;
+    height: 40px;
+    color: white;
+    float: left;
+    margin-left: 73px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.w_zaixiankefu{
+    float: left;
+    margin-top: 10px;
+}
+.w_alwwIcon{
+    float: left;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 15px;
+    width: 20px;
+}
+.w_zaixianBlock{
+    float: left;
+    display: block;
+    margin-left: 7px;
+    font-size: 17px;
+}
+.w_zaixianBlock1{
+    float: left;
+    display: block;
+    margin-top: 3px;
+    margin-left: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.w_zaixianBlock2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 13px;
+    font-size: 17px;
+}
+.w_greyLine{
+    width: 270px;
+    border: 1px dotted lightgray;
+    float: left;
+    margin-top: 13px;
+}
+.w_workTime{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.w_timeIcon{
+    float: left;
+    width: 28px;
+    vertical-align: middle;
+}
+.w_font{
+    font-size: 18px;
+}
+.w_greyLine1{
+    width: 790px;
+    border: 1px dotted lightgray;
+    float: left;
+    margin-top: 5px;
+}
+.w_liuyan{
+    float: left;
+    font-size: 18px;
+}
+.w_fanye{
+    float: left;
+    margin-top: 20px;
+    margin-left: 175px;
+}
+.w_btn{
+    width: 80px;
+    height:30px;
+    border-radius:0.3em ;
+    border: 1px solid lightgray;
+    background: white;
+    color: lightgray;
+    cursor: pointer;
+}
+.w_btn1{
+    width: 60px;
+    height:28px;
+    border-radius:0.3em ;
+    border: 1px solid lightgray;
+    background: white;
+    outline: none;
+    cursor: pointer;
+}
+.w_kuang{
+    width: 50px;
+    height: 28px;
+    border-radius:0.3em ;
+    border: 1px solid lightgray;
+    text-align: center;
+
+}
