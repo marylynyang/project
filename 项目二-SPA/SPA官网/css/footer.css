@@ -1,0 +1,90 @@
+.footer_wrap{
+    background: #242424;
+    padding: 60px 0 40px 0;
+}
+.footer_title{
+    color: white;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.Nav_li li{
+    color: #848484;
+    margin-bottom: 8px;
+    font-size: 15px;
+
+}
+.Nav_li li a{
+    color: #848484;
+    cursor: pointer;
+}
+.Nav_li li a:hover{
+    color: white;
+}
+.spa{
+    color: white;
+    font-size: 12px;
+    float: left;
+    margin-top: -8px;
+
+}
+.spa_span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+.footer_icon{
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.footer_icon ul li{
+    float: left;
+    margin-right: 10px;
+}
+.facebook{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/icon-tb.png") no-repeat -6px -14px;
+}
+.facebook:hover{
+    background: url("../images/icon-tb.png") no-repeat -6px -60px;
+}
+.g{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/icon-tb.png") no-repeat -50px -14px;
+}
+.g:hover{
+    background: url("../images/icon-tb.png") no-repeat -50px -59px;
+}
+.twitter{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background:url("../images/icon-tb.png") no-repeat -88px -14px;
+}
+.twitter:hover{
+    background: url("../images/icon-tb.png") no-repeat -88px -59px;
+}
+.footer_p{
+    color: #848484;
+    font-size: 14px;
+}
+
+@media (max-width: 500px){
+    .footer_list{
+        clear: both;
+        width: 50%;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:500px){
+    .footer_con{
+        width: 90%;
+    }
+}
